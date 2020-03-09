@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_ismanager_" label="IsManager?" language="en" table="u_imp_tmpl_x_nyk_nbse_time_ca_nbse_user_profile">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_ismanager_</element>
+            <help/>
+            <hint/>
+            <label>IsManager?</label>
+            <language>en</language>
+            <name>u_imp_tmpl_x_nyk_nbse_time_ca_nbse_user_profile</name>
+            <plural>IsManager?s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>MANUJAG</sys_created_by>
+            <sys_created_on>2020-03-09 12:44:14</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>02dc98c81be34010f59b8734ec4bcb81</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>IsManager?</sys_name>
+            <sys_package display_value="NBSE Time Card" source="x_nyk_nbse_time_ca">00e16545dbf604901a9df77c2996198a</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="NBSE Time Card">00e16545dbf604901a9df77c2996198a</sys_scope>
+            <sys_update_name>sys_documentation_u_imp_tmpl_x_nyk_nbse_time_ca_nbse_user_profile_u_ismanager__en</sys_update_name>
+            <sys_updated_by>MANUJAG</sys_updated_by>
+            <sys_updated_on>2020-03-09 12:44:14</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

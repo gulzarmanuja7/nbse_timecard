@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="x_nyk_nbse_time_ca_week" label="NBSE Assignment" max_length="40" name="x_nyk_nbse_time_ca_nbse_assignment" type="collection">
+        <element label="Project" max_length="32" name="project" reference="x_nyk_nbse_time_ca_nbse_projects" reference_qual="javascript:nbseProjectReturnFunction(current.timesheet.week_start, current.timesheet.week_end, current.project_work_type);" type="reference" use_reference_qualifier="advanced"/>
+        <element label="Project Work Type" max_length="32" name="project_work_type" reference="x_nyk_nbse_time_ca_nbse_project_work_type" reference_qual="javascript:nbseWorkTypeReturnFunction(current.project);" type="reference" use_reference_qualifier="advanced"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Ticket#" max_length="40" name="ticket" type="string"/>
+        <element attributes="encode_utf8=false" label="Timesheet" max_length="32" name="timesheet" reference="x_nyk_nbse_time_ca_nbse_timesheet" type="reference"/>
+        <index name="index">
+            <element name="timesheet"/>
+        </index>
+        <index name="index2">
+            <element name="project_work_type"/>
+        </index>
+        <index name="index3">
+            <element name="project"/>
+        </index>
+    </element>
+</database>

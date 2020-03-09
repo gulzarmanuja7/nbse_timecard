@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="x_nyk_nbse_time_ca_week" label="NBSE Timesheet" max_length="40" name="x_nyk_nbse_time_ca_nbse_timesheet" type="collection">
+        <element label="Fri Reg" max_length="40" name="fri_reg" type="float"/>
+        <element choice="1" label="Holidays" max_length="4000" name="holidays" read_only="true" type="glide_list">
+            <choice>
+                <element inactive_on_update="false" label="mon" sequence="0" value="mon"/>
+                <element inactive_on_update="false" label="tue" sequence="1" value="tue"/>
+                <element inactive_on_update="false" label="wed" sequence="2" value="wed"/>
+                <element inactive_on_update="false" label="thu" sequence="3" value="thu"/>
+                <element inactive_on_update="false" label="fri" sequence="4" value="fri"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Manager" max_length="32" name="manager" read_only="true" reference="sys_user" type="reference"/>
+        <element label="Mon Reg" max_length="40" name="mon_reg" type="float"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#9;return current.mon_nwt+current.tue_nwt+current.wed_nwt+current.thu_nwt+current.fri_nwt;&#13;&#10;})(current);" label="Non-Work Time (Hrs)" max_length="40" name="nwt" read_only="true" type="float" virtual="true"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#9;return current.mon_reg+current.tue_reg+current.wed_reg+current.thu_reg+current.fri_reg+current.sat_reg+current.sun_reg;&#13;&#10;})(current);" label="Regular (Hrs)" max_length="40" name="reg" read_only="true" type="float" virtual="true"/>
+        <element attributes="edge_encryption_enabled=true" label="Remarks" max_length="1000" name="remarks" type="journal"/>
+        <element attributes="encode_utf8=false" label="Resource" max_length="32" name="resource" read_only="true" reference="x_nyk_nbse_time_ca_nbse_user_profile" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="user_type" choice_table="x_nyk_nbse_time_ca_nbse_user_profile" label="Resource Type" max_length="40" name="resource_type" read_only="true" type="choice">
+            <choice/>
+        </element>
+        <element label="Sat Reg" max_length="40" name="sat_reg" type="float"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="Open" label="State" max_length="40" name="state" read_only="true" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Open" sequence="0" value="Open"/>
+                <element inactive="true" inactive_on_update="true" label="Payroll/Accounting Approved" sequence="0" value="Payroll/Accounting Approved"/>
+                <element inactive_on_update="false" label="Submitted" sequence="1" value="Submitted"/>
+                <element inactive_on_update="false" label="Manager Approved" sequence="2" value="Manager Approved"/>
+                <element inactive_on_update="false" label="Processed" sequence="3" value="Processed"/>
+            </choice>
+        </element>
+        <element label="Sun Reg" max_length="40" name="sun_reg" type="float"/>
+        <element label="Thu Reg" max_length="40" name="thu_reg" type="float"/>
+        <element attributes="edge_encryption_enabled=true" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;return current.resource.name + ' : ' + current.week_start;&#13;&#10;&#13;&#10;})(current);" display="true" label="Timesheet" max_length="100" name="timesheet" read_only="true" type="string" virtual="true"/>
+        <element attributes="encode_utf8=false" label="Timesheet Approver" max_length="32" name="timesheet_approver" read_only="true" reference="sys_user" type="reference"/>
+        <element label="Tue Reg" max_length="40" name="tue_reg" type="float"/>
+        <element choice="1" choice_field="u_vendor" choice_table="sys_user" label="Vendor" max_length="40" name="vendor" read_only="true" type="choice">
+            <choice/>
+        </element>
+        <element label="Wed Reg" max_length="40" name="wed_reg" type="float"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Week End" max_length="40" name="week_end" read_only="true" type="glide_date"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="Working Days" max_length="4000" name="working_days" read_only="true" type="glide_list">
+            <choice>
+                <element inactive_on_update="false" label="mon" sequence="0" value="mon"/>
+                <element inactive_on_update="false" label="tue" sequence="1" value="tue"/>
+                <element inactive_on_update="false" label="wed" sequence="2" value="wed"/>
+                <element inactive_on_update="false" label="thu" sequence="3" value="thu"/>
+                <element inactive_on_update="false" label="fri" sequence="4" value="fri"/>
+                <element inactive_on_update="false" label="sat" sequence="5" value="sat"/>
+                <element inactive_on_update="false" label="sun" sequence="6" value="sun"/>
+            </choice>
+        </element>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" choice_field="working_days_for_pte" label="Working Days for PTE" max_length="4000" name="working_days_for_pte" read_only="true" type="glide_list">
+            <choice/>
+        </element>
+        <index name="index">
+            <element name="timesheet_approver"/>
+        </index>
+        <index name="index2">
+            <element name="manager"/>
+        </index>
+        <index name="index3">
+            <element name="resource"/>
+        </index>
+    </element>
+</database>

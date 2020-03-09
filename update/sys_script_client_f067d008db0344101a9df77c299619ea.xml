@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>sys_class_name</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Alert Company Holiday or Weekend Hours</name>
+        <order/>
+        <script><![CDATA[function onSubmit(control, oldValue, newValue, isLoading, isTemplate) {
+	if (isLoading || newValue === '') {
+		return;
+	}
+	
+	var daysInWeek = ['mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun'];
+	var holidays = g_form.getValue('timesheet.holidays');
+	holidays += ',sat,sun';
+	
+	if (holidays)
+		holidays = holidays.split(',');
+	
+	//This will be an array of true/false values
+	//if mon is holiday, holidayArray[0] = true and so on
+	var holidayArray = [];
+	for (var w in daysInWeek) {
+		holidayArray[w] = false;
+		for (var h in holidays) {
+			if (daysInWeek[w] == holidays[h]) {
+				holidayArray[w] = true;
+				break;
+			}
+		}
+	}
+	// Check and confirm for any days with zero hours
+	// If it's a company paid holiday, then check for non-zero hours
+	var question;
+	for(var d=0; d<daysInWeek.length; d++) {//} in daysInWeek) {
+		question = '';
+		if (holidayArray[d]) {
+			if (g_form.getValue(daysInWeek[d]) !=0)
+				question = 'Are you sure you want to put hours on a company holiday / weekend for ' + daysInWeek[d] + '?';
+		}
+		if(question != '') {
+			var answer = confirm(question);
+			if(answer != true) {
+				return false;
+			}
+		}
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>MANUJAG</sys_created_by>
+        <sys_created_on>2020-02-13 15:53:13</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f067d008db0344101a9df77c299619ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Alert Company Holiday or Weekend Hours</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NBSE Time Card" source="x_nyk_nbse_time_ca">00e16545dbf604901a9df77c2996198a</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NBSE Time Card">00e16545dbf604901a9df77c2996198a</sys_scope>
+        <sys_update_name>sys_script_client_f067d008db0344101a9df77c299619ea</sys_update_name>
+        <sys_updated_by>MANUJAG</sys_updated_by>
+        <sys_updated_on>2020-02-13 15:53:13</sys_updated_on>
+        <table>x_nyk_nbse_time_ca_nbse_assignment</table>
+        <type>onSubmit</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="last_name" label="Last Name" language="en" table="x_nyk_nbse_time_ca_nbse_user_profile">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>last_name</element>
+            <help/>
+            <hint/>
+            <label>Last Name</label>
+            <language>en</language>
+            <name>x_nyk_nbse_time_ca_nbse_user_profile</name>
+            <plural>Last Names</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>MANUJAG</sys_created_by>
+            <sys_created_on>2020-02-05 16:14:38</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>9e80d7d91b32c090f59b8734ec4bcb1b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Last Name</sys_name>
+            <sys_package display_value="NBSE Time Card" source="x_nyk_nbse_time_ca">00e16545dbf604901a9df77c2996198a</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="NBSE Time Card">00e16545dbf604901a9df77c2996198a</sys_scope>
+            <sys_update_name>sys_documentation_x_nyk_nbse_time_ca_nbse_user_profile_last_name_en</sys_update_name>
+            <sys_updated_by>MANUJAG</sys_updated_by>
+            <sys_updated_on>2020-02-05 16:14:38</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

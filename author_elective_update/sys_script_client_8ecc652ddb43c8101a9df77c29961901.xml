@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>sys_class_name</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name> Alert Company Holiday or Weekend Hours</name>
+        <order/>
+        <script><![CDATA[function onSubmit(control, oldValue, newValue, isLoading, isTemplate) {
+	if (isLoading || newValue === '') {
+		return;
+	}
+	
+	var daysInWeek = ['mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun'];
+	var holidays = g_form.getValue('timesheet.holidays');
+	holidays += ',sat,sun';
+	
+	if (holidays)
+		holidays = holidays.split(',');
+	
+	//This will be an array of true/false values
+	//if mon is holiday, holidayArray[0] = true and so on
+	var holidayArray = [];
+	for (var w in daysInWeek) {
+		holidayArray[w] = false;
+		for (var h in holidays) {
+			if (daysInWeek[w] == holidays[h]) {
+				holidayArray[w] = true;
+				break;
+			}
+		}
+	}
+	// Check and confirm for any days with zero hours
+	// If it's a company paid holiday, then check for non-zero hours
+	var question;
+	for(var d=0; d<daysInWeek.length; d++) {//} in daysInWeek) {
+		question = '';
+		if (holidayArray[d]) {
+			if (g_form.getValue(daysInWeek[d]) !=0)
+				question = 'Are you sure you want to put hours on a company holiday / weekend for ' + daysInWeek[d] + '?';
+		}
+		if(question != '') {
+			var answer = confirm(question);
+			if(answer != true) {
+				return false;
+			}
+		}
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>MANUJAG</sys_created_by>
+        <sys_created_on>2020-02-18 13:54:27</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path/>
+        <sys_id>8ecc652ddb43c8101a9df77c29961901</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name> Alert Company Holiday or Weekend Hours</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NBSE Time Card" source="x_nyk_nbse_time_ca">00e16545dbf604901a9df77c2996198a</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NBSE Time Card">00e16545dbf604901a9df77c2996198a</sys_scope>
+        <sys_update_name>sys_script_client_8ecc652ddb43c8101a9df77c29961901</sys_update_name>
+        <sys_updated_by>MANUJAG</sys_updated_by>
+        <sys_updated_on>2020-02-18 13:54:27</sys_updated_on>
+        <table>x_nyk_nbse_time_ca_nbse_non_work_time</table>
+        <type>onSubmit</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NBSE Time Card">00e16545dbf604901a9df77c2996198a</application>
+        <comments/>
+        <file_path/>
+        <instance_id>b2d7f7b5ffb920006663762fa87efedd</instance_id>
+        <instance_name>nbsadev</instance_name>
+        <name>sys_script_client_8ecc652ddb43c8101a9df77c29961901</name>
+        <order/>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;sys_class_name&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt; Alert Company Holiday or Weekend Hours&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onSubmit(control, oldValue, newValue, isLoading, isTemplate) {
+	if (isLoading || newValue === '') {
+		return;
+	}
+	
+	var daysInWeek = ['mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun'];
+	var holidays = g_form.getValue('timesheet.holidays');
+	holidays += ',sat,sun';
+	
+	if (holidays)
+		holidays = holidays.split(',');
+	
+	//This will be an array of true/false values
+	//if mon is holiday, holidayArray[0] = true and so on
+	var holidayArray = [];
+	for (var w in daysInWeek) {
+		holidayArray[w] = false;
+		for (var h in holidays) {
+			if (daysInWeek[w] == holidays[h]) {
+				holidayArray[w] = true;
+				break;
+			}
+		}
+	}
+	// Check and confirm for any days with zero hours
+	// If it's a company paid holiday, then check for non-zero hours
+	var question;
+	for(var d=0; d&lt;daysInWeek.length; d++) {//} in daysInWeek) {
+		question = '';
+		if (holidayArray[d]) {
+			if (g_form.getValue(daysInWeek[d]) !=0)
+				question = 'Are you sure you want to put hours on a company holiday / weekend for ' + daysInWeek[d] + '?';
+		}
+		if(question != '') {
+			var answer = confirm(question);
+			if(answer != true) {
+				return false;
+			}
+		}
+	}
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;MANUJAG&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-02-18 13:54:27&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path/&gt;&lt;sys_id&gt;8ecc652ddb43c8101a9df77c29961901&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt; Alert Company Holiday or Weekend Hours&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="NBSE Time Card" source="x_nyk_nbse_time_ca"&gt;00e16545dbf604901a9df77c2996198a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="NBSE Time Card"&gt;00e16545dbf604901a9df77c2996198a&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_8ecc652ddb43c8101a9df77c29961901&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;MANUJAG&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-02-18 13:54:27&lt;/sys_updated_on&gt;&lt;table&gt;x_nyk_nbse_time_ca_nbse_non_work_time&lt;/table&gt;&lt;type&gt;onSubmit&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>838365221</payload_hash>
+        <record_name> Alert Company Holiday or Weekend Hours</record_name>
+        <reverted_from/>
+        <source>0ce16545dbf604901a9df77c2996198c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>MANUJAG</sys_created_by>
+        <sys_created_on>2020-02-18 13:54:27</sys_created_on>
+        <sys_id>e71d6de9db43c8101a9df77c299619ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170589421590000001</sys_recorded_at>
+        <sys_updated_by>MANUJAG</sys_updated_by>
+        <sys_updated_on>2020-02-18 13:54:27</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>ef1d6de9b843c8104c5d6032e2cc67fe</update_guid>
+        <update_guid_history>ef1d6de9b843c8104c5d6032e2cc67fe:838365221</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>GARGL</sys_created_by>
+        <sys_created_on>2020-02-24 09:38:19</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>5ba021f2ad2844589b44b2904f78b981</sys_id>
+        <sys_metadata>8ecc652ddb43c8101a9df77c29961901</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name> Alert Company Holiday or Weekend Hours</sys_name>
+        <sys_package display_value="NBSE Time Card" source="x_nyk_nbse_time_ca">00e16545dbf604901a9df77c2996198a</sys_package>
+        <sys_parent display_value="">017169eddb03c8101a9df77c29961962</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NBSE Time Card">00e16545dbf604901a9df77c2996198a</sys_scope>
+        <sys_scope_delete display_value="">794c9e7989a8442480c4438e5a152c49</sys_scope_delete>
+        <sys_update_name>sys_script_client_8ecc652ddb43c8101a9df77c29961901</sys_update_name>
+        <sys_update_version display_value="sys_script_client_8ecc652ddb43c8101a9df77c29961901">e71d6de9db43c8101a9df77c299619ff</sys_update_version>
+        <sys_updated_by>GARGL</sys_updated_by>
+        <sys_updated_on>2020-02-24 09:38:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

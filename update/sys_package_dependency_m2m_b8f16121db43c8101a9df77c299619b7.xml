@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="NBSA Time Card" source="x_nykl3_tenroxnbsa">1a0e09cc0f4332001416d23be1050e3f</dependency>
+        <min_version>1.1.26</min_version>
+        <sys_created_by>MANUJAG</sys_created_by>
+        <sys_created_on>2020-02-18 13:05:40</sys_created_on>
+        <sys_id>b8f16121db43c8101a9df77c299619b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="NBSE Time Card" source="x_nyk_nbse_time_ca">00e16545dbf604901a9df77c2996198a</sys_package>
+        <sys_updated_by>MANUJAG</sys_updated_by>
+        <sys_updated_on>2020-02-18 13:05:40</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

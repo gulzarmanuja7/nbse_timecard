@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <conditional>false</conditional>
+        <name>NBSE Timesheet - Reminder - Employee Timesheet Submission</name>
+        <run_as display_value="Lavlesh Garg">1ec1734e2baea000eef35700f8da1555</run_as>
+        <run_as_tz>Europe/London</run_as_tz>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2020-03-02 18:26:05</run_start>
+        <run_time>1970-01-01 14:00:00</run_time>
+        <run_type>weekly</run_type>
+        <script><![CDATA[/*
+ * Author: Lavlesh Garg
+ * Date: 2-Mar-2020
+ * Purpose: Every Friday 9 AM, This job will check for any open timesheets for employees for this week
+ * If, the job finds any open timesheets, it will send reminder to the users to submit the by end of day, Friday.
+ */
+timsheetSubmissionReminder();
+
+function timsheetSubmissionReminder() {
+	var TABLE_USER_PROFILE = 'x_nyk_nbse_time_ca_nbse_user_profile';
+	var TABLE_TIMESHEET    = 'x_nyk_nbse_time_ca_nbse_timesheet';
+	
+	// We want to send reminder for this week's open timesheets
+	// We will deduct 1 day from current date till we get Monday
+	var weekStart = new GlideDateTime();
+	while (weekStart.getDayOfWeekUTC() != 1)
+		weekStart.addDaysUTC(-1);
+	gs.debug('NBSE Time Card - Reminder - Employee Timesheet Submission SJ: Week Start: '+weekStart.getDisplayValue());
+	//var up = new GlideRecord(TABLE_USER_PROFILE);
+	//new global.NBSA_SNUtils().getA(TABLE_TIMESHEET, ['state=Open^week_start='+weekStart.getDate()], ['sys_id', 'week_start', 'resource']).forEach(function(t) {
+	//	up.initialize();
+	//	if (up.get(t.resource))
+	//		gs.eventQueue('x_nyk_nbse_time_ca.ts.reminder', up, t.week_start);
+	//}, this);
+	var ts = new GlideRecord(TABLE_TIMESHEET);
+	ts.addEncodedQuery('state=Open^week_start='+weekStart.getDate());
+	ts.query();
+	while (ts.next()) {
+		gs.eventQueue('x_nyk_nbse_time_ca.ts.reminder', ts, ts.week_start);
+	}
+}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>GARGL</sys_created_by>
+        <sys_created_on>2020-03-02 18:58:29</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>91f72d3ddbd7c8501a9df77c29961942</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>NBSE Timesheet - Reminder - Employee Timesheet Submission</sys_name>
+        <sys_package display_value="NBSE Time Card" source="x_nyk_nbse_time_ca">00e16545dbf604901a9df77c2996198a</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NBSE Time Card">00e16545dbf604901a9df77c2996198a</sys_scope>
+        <sys_update_name>sysauto_script_91f72d3ddbd7c8501a9df77c29961942</sys_update_name>
+        <sys_updated_by>MANUJAG</sys_updated_by>
+        <sys_updated_on>2020-03-06 18:02:51</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

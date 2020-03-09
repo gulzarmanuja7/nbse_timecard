@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="DELETE">
+        <action_name>recall_manager</action_name>
+        <active>true</active>
+        <client>true</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments/>
+        <condition>current.state == 'Manager Approved' &amp;&amp; new NBSETimeCardUtil().hasRoleExactly(gs.getUserID(), 'x_nyk_nbse_time_ca.nbse_admin')</condition>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <hint/>
+        <isolate_script>true</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <name>Recall</name>
+        <onclick>verifyRemarksManager()</onclick>
+        <order>100</order>
+        <script><![CDATA[// This Recall UI Action is for Manager and Admin
+// Remark are necessary for recalling
+
+//Client-side 'onclick' function
+function verifyRemarksManager() {
+	
+	if(g_form.getValue('remarks') == '') {
+		alert('Remarks are manadatory for recalling for Manager Approved timesheet');
+		g_form.setMandatory('remarks', true);
+		return false;  //Abort submission
+   }
+   //Call the UI Action and skip the 'onclick' function
+   gsftSubmit(null, g_form.getFormElement(), 'recall_manager'); //MUST call the 'Action name' set in this UI Action
+}
+
+//Code that runs without 'onclick'
+if(typeof window == 'undefined')
+   recall();
+
+//Server-side function
+function recall() {
+	current.state = 'Open';
+	current.update();
+	action.setRedirectURL(current);
+}]]></script>
+        <show_insert>false</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>MANUJAG</sys_created_by>
+        <sys_created_on>2020-02-17 18:49:36</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5095651ddb0388101a9df77c29961997</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Recall</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NBSE Time Card" source="x_nyk_nbse_time_ca">00e16545dbf604901a9df77c2996198a</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NBSE Time Card">00e16545dbf604901a9df77c2996198a</sys_scope>
+        <sys_update_name>sys_ui_action_5095651ddb0388101a9df77c29961997</sys_update_name>
+        <sys_updated_by>MANUJAG</sys_updated_by>
+        <sys_updated_on>2020-02-27 14:03:04</sys_updated_on>
+        <table>x_nyk_nbse_time_ca_nbse_timesheet</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NBSE Time Card">00e16545dbf604901a9df77c2996198a</application>
+        <comments/>
+        <file_path/>
+        <instance_id>b2d7f7b5ffb920006663762fa87efedd</instance_id>
+        <instance_name>nbsadev</instance_name>
+        <name>sys_ui_action_5095651ddb0388101a9df77c29961997</name>
+        <order/>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_action"&gt;&lt;sys_ui_action action="INSERT_OR_UPDATE"&gt;&lt;action_name&gt;recall_manager&lt;/action_name&gt;&lt;active&gt;true&lt;/active&gt;&lt;client&gt;true&lt;/client&gt;&lt;client_script_v2&gt;&lt;![CDATA[function onClick(g_form) {
+
+}]]&gt;&lt;/client_script_v2&gt;&lt;comments/&gt;&lt;condition&gt;current.state == 'Manager Approved' &amp;amp;&amp;amp; new NBSETimeCardUtil().hasRoleExactly(gs.getUserID(), 'x_nyk_nbse_time_ca.nbse_admin')&lt;/condition&gt;&lt;form_action&gt;true&lt;/form_action&gt;&lt;form_button&gt;true&lt;/form_button&gt;&lt;form_button_v2&gt;false&lt;/form_button_v2&gt;&lt;form_context_menu&gt;false&lt;/form_context_menu&gt;&lt;form_link&gt;false&lt;/form_link&gt;&lt;form_menu_button_v2&gt;false&lt;/form_menu_button_v2&gt;&lt;form_style/&gt;&lt;hint/&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;list_action&gt;false&lt;/list_action&gt;&lt;list_banner_button&gt;false&lt;/list_banner_button&gt;&lt;list_button&gt;false&lt;/list_button&gt;&lt;list_choice&gt;false&lt;/list_choice&gt;&lt;list_context_menu&gt;false&lt;/list_context_menu&gt;&lt;list_link&gt;false&lt;/list_link&gt;&lt;list_save_with_form_button&gt;false&lt;/list_save_with_form_button&gt;&lt;list_style/&gt;&lt;name&gt;Recall&lt;/name&gt;&lt;onclick&gt;verifyRemarksManager()&lt;/onclick&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[// This Recall UI Action is for Manager and Admin
+// Remark are necessary for recalling
+
+//Client-side 'onclick' function
+function verifyRemarksManager() {
+	
+	if(g_form.getValue('remarks') == '') {
+		alert('Remarks are manadatory for recalling for Manager Approved timesheet');
+		g_form.setMandatory('remarks', true);
+		return false;  //Abort submission
+   }
+   //Call the UI Action and skip the 'onclick' function
+   gsftSubmit(null, g_form.getFormElement(), 'recall_manager'); //MUST call the 'Action name' set in this UI Action
+}
+
+//Code that runs without 'onclick'
+if(typeof window == 'undefined')
+   recall();
+
+//Server-side function
+function recall() {
+	current.state = 'Open';
+	current.update();
+	action.setRedirectURL(current);
+}]]&gt;&lt;/script&gt;&lt;show_insert&gt;false&lt;/show_insert&gt;&lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;&lt;show_query&gt;false&lt;/show_query&gt;&lt;show_update&gt;true&lt;/show_update&gt;&lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;MANUJAG&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-02-17 18:49:36&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;5095651ddb0388101a9df77c29961997&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Recall&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="NBSE Time Card" source="x_nyk_nbse_time_ca"&gt;00e16545dbf604901a9df77c2996198a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="NBSE Time Card"&gt;00e16545dbf604901a9df77c2996198a&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_action_5095651ddb0388101a9df77c29961997&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;MANUJAG&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-02-27 14:03:04&lt;/sys_updated_on&gt;&lt;table&gt;x_nyk_nbse_time_ca_nbse_timesheet&lt;/table&gt;&lt;ui11_compatible&gt;true&lt;/ui11_compatible&gt;&lt;ui16_compatible&gt;false&lt;/ui16_compatible&gt;&lt;/sys_ui_action&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-2119216882</payload_hash>
+        <record_name>Recall</record_name>
+        <reverted_from/>
+        <source>0ce16545dbf604901a9df77c2996198c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>MANUJAG</sys_created_by>
+        <sys_created_on>2020-02-27 14:03:05</sys_created_on>
+        <sys_id>2165c4e8db5784501a9df77c29961977</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17086f541bc0000001</sys_recorded_at>
+        <sys_updated_by>MANUJAG</sys_updated_by>
+        <sys_updated_on>2020-02-27 14:03:05</sys_updated_on>
+        <type>UI Action</type>
+        <update_guid>e565c4e8275784502461226703c67776</update_guid>
+        <update_guid_history>e565c4e8275784502461226703c67776:-2119216882,dd17655d150388107e6c3288f84db11c:1680336636</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>MANUJAG</sys_created_by>
+        <sys_created_on>2020-02-27 14:28:08</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_ui_action">sys_ui_action</sys_db_object>
+        <sys_id>0c168ac86d2c4af7887d8efcdc9eb439</sys_id>
+        <sys_metadata>5095651ddb0388101a9df77c29961997</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Recall</sys_name>
+        <sys_package display_value="NBSE Time Card" source="x_nyk_nbse_time_ca">00e16545dbf604901a9df77c2996198a</sys_package>
+        <sys_parent display_value="NBSE Timesheet">f922b109db3a04901a9df77c29961972</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NBSE Time Card">00e16545dbf604901a9df77c2996198a</sys_scope>
+        <sys_scope_delete display_value="">794c9e7989a8442480c4438e5a152c49</sys_scope_delete>
+        <sys_update_name>sys_ui_action_5095651ddb0388101a9df77c29961997</sys_update_name>
+        <sys_update_version display_value="sys_ui_action_5095651ddb0388101a9df77c29961997">2165c4e8db5784501a9df77c29961977</sys_update_version>
+        <sys_updated_by>MANUJAG</sys_updated_by>
+        <sys_updated_on>2020-02-27 14:28:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

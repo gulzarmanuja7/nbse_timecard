@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Imp Tmpl Cmn Department" max_length="40" name="u_imp_tmpl_cmn_department" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=AM Department ?" label="AM Department ?" max_length="40" name="u_am_department__" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Business unit" label="Business unit" max_length="32" name="u_business_unit" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Company" label="Company" max_length="32" name="u_company" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Cost center" label="Cost center" max_length="32" name="u_cost_center" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Department head" label="Department head" max_length="32" name="u_department_head" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Description" label="Description" max_length="1000" name="u_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Head count" label="Head count" max_length="40" name="u_head_count" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=ID" label="ID" max_length="40" name="u_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Managed domain" label="Managed domain" max_length="40" name="u_managed_domain" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Name" label="Name" max_length="100" name="u_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Parent" label="Parent" max_length="32" name="u_parent" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Primary contact" label="Primary contact" max_length="32" name="u_primary_contact" type="string"/>
+    </element>
+</database>

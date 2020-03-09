@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>NBSE Timesheet activity formatter fields</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>glide.ui.x_nyk_nbse_time_ca_nbse_timesheet_activity.fields</name>
+        <read_roles/>
+        <suffix>x_nyk_nbse_time_ca</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>MANUJAG</sys_created_by>
+        <sys_created_on>2020-02-13 16:31:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>8c01a080db4344101a9df77c299619b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>glide.ui.x_nyk_nbse_time_ca_nbse_timesheet_activity.fields</sys_name>
+        <sys_package display_value="NBSE Time Card" source="x_nyk_nbse_time_ca">00e16545dbf604901a9df77c2996198a</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NBSE Time Card">00e16545dbf604901a9df77c2996198a</sys_scope>
+        <sys_update_name>sys_properties_8c01a080db4344101a9df77c299619b7</sys_update_name>
+        <sys_updated_by>MANUJAG</sys_updated_by>
+        <sys_updated_on>2020-02-13 16:31:00</sys_updated_on>
+        <type>string</type>
+        <value>week_start,week_end,state,mon,tue,wed,thu,fri,sat,sun,total_hrs,manager,timesheet_approver,*Email*</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=8c01a080db4344101a9df77c299619b7"/>
+</record_update>

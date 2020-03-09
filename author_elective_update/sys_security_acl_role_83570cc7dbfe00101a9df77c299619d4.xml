@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>MANUJAG</sys_created_by>
+        <sys_created_on>2020-02-10 12:05:03</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>83570cc7dbfe00101a9df77c299619d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_nyk_nbse_time_ca_nbse_assignment.x_nyk_nbse_time_ca.nbse_assignment_user</sys_name>
+        <sys_package display_value="NBSE Time Card" source="x_nyk_nbse_time_ca">00e16545dbf604901a9df77c2996198a</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NBSE Time Card">00e16545dbf604901a9df77c2996198a</sys_scope>
+        <sys_security_acl display_value="x_nyk_nbse_time_ca_nbse_assignment">4b570cc7dbfe00101a9df77c299619cf</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_83570cc7dbfe00101a9df77c299619d4</sys_update_name>
+        <sys_updated_by>MANUJAG</sys_updated_by>
+        <sys_updated_on>2020-02-10 12:05:03</sys_updated_on>
+        <sys_user_role display_value="x_nyk_nbse_time_ca.nbse_assignment_user" name="x_nyk_nbse_time_ca.nbse_assignment_user">3a578c87dbfe00101a9df77c299619df</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NBSE Time Card">00e16545dbf604901a9df77c2996198a</application>
+        <comments/>
+        <file_path/>
+        <instance_id>b2d7f7b5ffb920006663762fa87efedd</instance_id>
+        <instance_name>nbsadev</instance_name>
+        <name>sys_security_acl_role_83570cc7dbfe00101a9df77c299619d4</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>MANUJAG</sys_created_by><sys_created_on>2020-02-10 12:05:03</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>83570cc7dbfe00101a9df77c299619d4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_nyk_nbse_time_ca_nbse_assignment.x_nyk_nbse_time_ca.nbse_assignment_user</sys_name><sys_package display_value="NBSE Time Card" source="x_nyk_nbse_time_ca">00e16545dbf604901a9df77c2996198a</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="NBSE Time Card">00e16545dbf604901a9df77c2996198a</sys_scope><sys_security_acl display_value="x_nyk_nbse_time_ca_nbse_assignment">4b570cc7dbfe00101a9df77c299619cf</sys_security_acl><sys_update_name>sys_security_acl_role_83570cc7dbfe00101a9df77c299619d4</sys_update_name><sys_updated_by>MANUJAG</sys_updated_by><sys_updated_on>2020-02-10 12:05:03</sys_updated_on><sys_user_role display_value="x_nyk_nbse_time_ca.nbse_assignment_user" name="x_nyk_nbse_time_ca.nbse_assignment_user">3a578c87dbfe00101a9df77c299619df</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-397902758</payload_hash>
+        <record_name>x_nyk_nbse_time_ca_nbse_assignment.x_nyk_nbse_time_ca.nbse_assignment_user</record_name>
+        <reverted_from/>
+        <source>0ce16545dbf604901a9df77c2996198c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>MANUJAG</sys_created_by>
+        <sys_created_on>2020-02-10 12:05:03</sys_created_on>
+        <sys_id>c7570cc7dbfe00101a9df77c299619d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1702efd19760000001</sys_recorded_at>
+        <sys_updated_by>MANUJAG</sys_updated_by>
+        <sys_updated_on>2020-02-10 12:05:03</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>cf570cc76bfe00101e56479995242ad6</update_guid>
+        <update_guid_history>cf570cc76bfe00101e56479995242ad6:-397902758</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 02-21-2020 10:13:51">c41c112adb03cc101a9df77c299619fd</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>GARGL</sys_created_by>
+        <sys_created_on>2020-02-21 15:13:52</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>b7d6b20787b646c3a449e8677f0d55b1</sys_id>
+        <sys_metadata>83570cc7dbfe00101a9df77c299619d4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_nyk_nbse_time_ca_nbse_assignment.x_nyk_nbse_time_ca.nbse_assignment_user</sys_name>
+        <sys_package display_value="NBSE Time Card" source="x_nyk_nbse_time_ca">00e16545dbf604901a9df77c2996198a</sys_package>
+        <sys_parent display_value="">4b570cc7dbfe00101a9df77c299619cf</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NBSE Time Card">00e16545dbf604901a9df77c2996198a</sys_scope>
+        <sys_scope_delete display_value="">794c9e7989a8442480c4438e5a152c49</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_83570cc7dbfe00101a9df77c299619d4</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_83570cc7dbfe00101a9df77c299619d4">c7570cc7dbfe00101a9df77c299619d7</sys_update_version>
+        <sys_updated_by>GARGL</sys_updated_by>
+        <sys_updated_on>2020-02-21 15:13:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

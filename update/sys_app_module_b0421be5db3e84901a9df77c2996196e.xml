@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="NBSE Time Card">acc2f909db3a04901a9df77c299619a8</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter table="x_nyk_nbse_time_ca_nbse_timesheet">state=Manager Approved^EQ<item display_value="Manager Approved" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="Manager Approved"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Manager Approved Timesheets</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_nyk_nbse_time_ca_nbse_timesheet</name>
+        <order>50</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query>&amp;sysparm_fixed_query=resource.userDYNAMIC90d1921e5f510100a9ad2572f2b477fe</query>
+        <report/>
+        <roles/>
+        <survey/>
+        <survey_overwrite>true</survey_overwrite>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>MANUJAG</sys_created_by>
+        <sys_created_on>2020-02-06 11:01:16</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b0421be5db3e84901a9df77c2996196e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Manager Approved Timesheets</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NBSE Time Card" source="x_nyk_nbse_time_ca">00e16545dbf604901a9df77c2996198a</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NBSE Time Card">00e16545dbf604901a9df77c2996198a</sys_scope>
+        <sys_update_name>sys_app_module_b0421be5db3e84901a9df77c2996196e</sys_update_name>
+        <sys_updated_by>MANUJAG</sys_updated_by>
+        <sys_updated_on>2020-02-06 11:01:58</sys_updated_on>
+        <timeline_page/>
+        <title>Manager Approved Timesheets</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_nyk_nbse_time_ca.nbseWorkTypeReturnFunction</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>nbseWorkTypeReturnFunction</name>
+        <script><![CDATA[function nbseWorkTypeReturnFunction(project) {
+	if (!project) {
+		return 'sys_idISEMPTY';
+	} else {
+		var ret = 'sys_idIN';
+		var workType = new GlideRecord('x_nyk_nbse_time_ca_m2m_nbse_projec_nbse_project');
+		workType.addQuery('projects', project);
+		workType.query();
+		while (workType.next()) {
+			ret += workType.project_work_type + ",";
+		}
+		return ret;
+	}
+}]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>MANUJAG</sys_created_by>
+        <sys_created_on>2020-02-10 12:30:37</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>2afccc4fdbfe00101a9df77c29961922</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>nbseWorkTypeReturnFunction</sys_name>
+        <sys_package display_value="NBSE Time Card" source="x_nyk_nbse_time_ca">00e16545dbf604901a9df77c2996198a</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NBSE Time Card">00e16545dbf604901a9df77c2996198a</sys_scope>
+        <sys_update_name>sys_script_include_2afccc4fdbfe00101a9df77c29961922</sys_update_name>
+        <sys_updated_by>GARGL</sys_updated_by>
+        <sys_updated_on>2020-03-02 09:49:26</sys_updated_on>
+    </sys_script_include>
+</record_update>

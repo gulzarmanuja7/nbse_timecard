@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="DELETE">
+        <access/>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>false</create_access>
+        <create_access_controls>false</create_access_controls>
+        <delete_access>false</delete_access>
+        <extension_model/>
+        <is_extendable>false</is_extendable>
+        <label>Imp Tmpl X Nyk Nbse Time Ca Nbse Holidays</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>u_imp_tmpl_x_nyk_nbse_time_ca_nbse_holidays</name>
+        <number_ref/>
+        <provider_class/>
+        <read_access>true</read_access>
+        <super_class display_value="Import Set Row" name="sys_import_set_row">26eab37104312000fc0b8e57a73bb7ba</super_class>
+        <sys_class_code/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_class_path/>
+        <sys_created_by>MANUJAG</sys_created_by>
+        <sys_created_on>2020-02-06 14:12:12</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ee1eb765dbfe84901a9df77c29961994</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Imp Tmpl X Nyk Nbse Time Ca Nbse Holidays</sys_name>
+        <sys_package display_value="NBSE Time Card" source="x_nyk_nbse_time_ca">00e16545dbf604901a9df77c2996198a</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NBSE Time Card">00e16545dbf604901a9df77c2996198a</sys_scope>
+        <sys_update_name>sys_db_object_ee1eb765dbfe84901a9df77c29961994</sys_update_name>
+        <sys_updated_by>MANUJAG</sys_updated_by>
+        <sys_updated_on>2020-02-06 14:12:12</sys_updated_on>
+        <update_access>false</update_access>
+        <user_role/>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NBSE Time Card">00e16545dbf604901a9df77c2996198a</application>
+        <comments/>
+        <file_path/>
+        <instance_id>b2d7f7b5ffb920006663762fa87efedd</instance_id>
+        <instance_name>nbsadev</instance_name>
+        <name>sys_db_object_ee1eb765dbfe84901a9df77c29961994</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access/><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>false</create_access_controls><delete_access>false</delete_access><extension_model/><is_extendable>false</is_extendable><label>Imp Tmpl X Nyk Nbse Time Ca Nbse Holidays</label><live_feed_enabled>false</live_feed_enabled><name>u_imp_tmpl_x_nyk_nbse_time_ca_nbse_holidays</name><number_ref/><provider_class/><read_access>true</read_access><super_class display_value="Import Set Row" name="sys_import_set_row">26eab37104312000fc0b8e57a73bb7ba</super_class><sys_class_code/><sys_class_name>sys_db_object</sys_class_name><sys_class_path/><sys_created_by>MANUJAG</sys_created_by><sys_created_on>2020-02-06 14:12:12</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>ee1eb765dbfe84901a9df77c29961994</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Imp Tmpl X Nyk Nbse Time Ca Nbse Holidays</sys_name><sys_package display_value="NBSE Time Card" source="x_nyk_nbse_time_ca">00e16545dbf604901a9df77c2996198a</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="NBSE Time Card">00e16545dbf604901a9df77c2996198a</sys_scope><sys_update_name>sys_db_object_ee1eb765dbfe84901a9df77c29961994</sys_update_name><sys_updated_by>MANUJAG</sys_updated_by><sys_updated_on>2020-02-06 14:12:12</sys_updated_on><update_access>false</update_access><user_role/><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+        <payload_hash>104440273</payload_hash>
+        <record_name>Imp Tmpl X Nyk Nbse Time Ca Nbse Holidays</record_name>
+        <reverted_from/>
+        <source>0ce16545dbf604901a9df77c2996198c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>MANUJAG</sys_created_by>
+        <sys_created_on>2020-02-06 14:12:13</sys_created_on>
+        <sys_id>f61eb765dbfe84901a9df77c299619c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1701ad812680000001</sys_recorded_at>
+        <sys_updated_by>MANUJAG</sys_updated_by>
+        <sys_updated_on>2020-02-06 14:12:13</sys_updated_on>
+        <type>Table</type>
+        <update_guid>721eb76596fe84904fe1fe7f789b5dc2</update_guid>
+        <update_guid_history>721eb76596fe84904fe1fe7f789b5dc2:104440273</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>GARGL</sys_created_by>
+        <sys_created_on>2020-02-24 09:42:51</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_db_object">sys_db_object</sys_db_object>
+        <sys_id>09e334d919a44318825181ac19eeae40</sys_id>
+        <sys_metadata>ee1eb765dbfe84901a9df77c29961994</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Imp Tmpl X Nyk Nbse Time Ca Nbse Holidays</sys_name>
+        <sys_package display_value="NBSE Time Card" source="x_nyk_nbse_time_ca">00e16545dbf604901a9df77c2996198a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NBSE Time Card">00e16545dbf604901a9df77c2996198a</sys_scope>
+        <sys_scope_delete display_value="">794c9e7989a8442480c4438e5a152c49</sys_scope_delete>
+        <sys_update_name>sys_db_object_ee1eb765dbfe84901a9df77c29961994</sys_update_name>
+        <sys_update_version display_value="sys_db_object_ee1eb765dbfe84901a9df77c29961994">f61eb765dbfe84901a9df77c299619c2</sys_update_version>
+        <sys_updated_by>GARGL</sys_updated_by>
+        <sys_updated_on>2020-02-24 09:42:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

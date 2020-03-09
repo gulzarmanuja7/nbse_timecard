@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="DELETE" field="working_days_for_pte" table="x_nyk_nbse_time_ca_nbse_timesheet" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>working_days_for_pte</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>sat</label>
+            <language>en</language>
+            <name>x_nyk_nbse_time_ca_nbse_timesheet</name>
+            <sequence>5</sequence>
+            <sys_created_by>GARGL</sys_created_by>
+            <sys_created_on>2020-02-12 11:35:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cfc35aa71bb2c010f59b8734ec4bcbb5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>GARGL</sys_updated_by>
+            <sys_updated_on>2020-02-12 11:35:36</sys_updated_on>
+            <value>sat</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>working_days_for_pte</element>
+            <name>x_nyk_nbse_time_ca_nbse_timesheet</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>GARGL</sys_created_by>
+            <sys_created_on>2020-02-12 11:35:36</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>4fc316a71bb2c010f59b8734ec4bcb01</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>working_days_for_pte</sys_name>
+            <sys_package display_value="NBSE Time Card" source="x_nyk_nbse_time_ca">00e16545dbf604901a9df77c2996198a</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="NBSE Time Card">00e16545dbf604901a9df77c2996198a</sys_scope>
+            <sys_update_name>sys_choice_x_nyk_nbse_time_ca_nbse_timesheet_working_days_for_pte</sys_update_name>
+            <sys_updated_by>GARGL</sys_updated_by>
+            <sys_updated_on>2020-02-12 11:35:36</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NBSE Time Card">00e16545dbf604901a9df77c2996198a</application>
+        <comments/>
+        <file_path/>
+        <instance_id>b2d7f7b5ffb920006663762fa87efedd</instance_id>
+        <instance_name>nbsadev</instance_name>
+        <name>sys_choice_x_nyk_nbse_time_ca_nbse_timesheet_working_days_for_pte</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="working_days_for_pte" table="x_nyk_nbse_time_ca_nbse_timesheet" version="3"><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>working_days_for_pte</element><hint/><inactive>false</inactive><label>sat</label><language>en</language><name>x_nyk_nbse_time_ca_nbse_timesheet</name><sequence>5</sequence><sys_created_by>GARGL</sys_created_by><sys_created_on>2020-02-12 11:35:36</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>cfc35aa71bb2c010f59b8734ec4bcbb5</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>GARGL</sys_updated_by><sys_updated_on>2020-02-12 11:35:36</sys_updated_on><value>sat</value></sys_choice><sys_choice_set action="INSERT_OR_UPDATE"><element>working_days_for_pte</element><name>x_nyk_nbse_time_ca_nbse_timesheet</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>GARGL</sys_created_by><sys_created_on>2020-02-12 11:35:36</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>4fc316a71bb2c010f59b8734ec4bcb01</sys_id><sys_mod_count>0</sys_mod_count><sys_name>working_days_for_pte</sys_name><sys_package display_value="NBSE Time Card" source="x_nyk_nbse_time_ca">00e16545dbf604901a9df77c2996198a</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="NBSE Time Card">00e16545dbf604901a9df77c2996198a</sys_scope><sys_update_name>sys_choice_x_nyk_nbse_time_ca_nbse_timesheet_working_days_for_pte</sys_update_name><sys_updated_by>GARGL</sys_updated_by><sys_updated_on>2020-02-12 11:35:36</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+        <payload_hash>-1138136018</payload_hash>
+        <record_name>NBSE Timesheet.Working Days for PTE</record_name>
+        <reverted_from/>
+        <source>0ce16545dbf604901a9df77c2996198c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>GARGL</sys_created_by>
+        <sys_created_on>2020-02-28 17:47:24</sys_created_on>
+        <sys_id>15524af8db1fc4501a9df77c2996197e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1708ce8fc770000001</sys_recorded_at>
+        <sys_updated_by>GARGL</sys_updated_by>
+        <sys_updated_on>2020-02-28 17:47:24</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>d9524af80c1fc450cf3018e30476657d</update_guid>
+        <update_guid_history>d9524af80c1fc450cf3018e30476657d:-1138136018,5d524af8c51fc450780c720e8279a07a:-976364864,dd524af8721fc4506cc048c449392677:-1093804396,51524af8f01fc450bbc0525706595f75:-1097470631,d15206f8321fc450fb5770f21242fbc8:-150523235,d15206f8c31fc45000880288c9e0e9c5:-1770767586,cbc35aa7b1b2c0102473376c1fc7f9b8:-1209707684</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>GARGL</sys_created_by>
+        <sys_created_on>2020-02-28 17:47:24</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>4fc316a71bb2c010f59b8734ec4bcb01</sys_id>
+        <sys_metadata>4fc316a71bb2c010f59b8734ec4bcb01</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>working_days_for_pte</sys_name>
+        <sys_package display_value="NBSE Time Card" source="x_nyk_nbse_time_ca">00e16545dbf604901a9df77c2996198a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NBSE Time Card">00e16545dbf604901a9df77c2996198a</sys_scope>
+        <sys_scope_delete display_value="">794c9e7989a8442480c4438e5a152c49</sys_scope_delete>
+        <sys_update_name>sys_choice_x_nyk_nbse_time_ca_nbse_timesheet_working_days_for_pte</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_nyk_nbse_time_ca_nbse_timesheet_working_days_for_pte">15524af8db1fc4501a9df77c2996197e</sys_update_version>
+        <sys_updated_by>GARGL</sys_updated_by>
+        <sys_updated_on>2020-02-28 17:47:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

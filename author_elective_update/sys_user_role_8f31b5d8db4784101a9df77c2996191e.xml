@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="DELETE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <encryption_context/>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_nyk_nbse_time_ca.nbse_timesheet_create</name>
+        <requires_subscription>-1</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <suffix>nbse_timesheet_create</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>MANUJAG</sys_created_by>
+        <sys_created_on>2020-02-14 17:00:19</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>8f31b5d8db4784101a9df77c2996191e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_nyk_nbse_time_ca.nbse_timesheet_create</sys_name>
+        <sys_package display_value="NBSE Time Card" source="x_nyk_nbse_time_ca">00e16545dbf604901a9df77c2996198a</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NBSE Time Card">00e16545dbf604901a9df77c2996198a</sys_scope>
+        <sys_update_name>sys_user_role_8f31b5d8db4784101a9df77c2996191e</sys_update_name>
+        <sys_updated_by>MANUJAG</sys_updated_by>
+        <sys_updated_on>2020-02-14 17:00:19</sys_updated_on>
+        <u_applications/>
+        <u_license_type>fulfiller</u_license_type>
+        <u_oob_or_custom/>
+    </sys_user_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NBSE Time Card">00e16545dbf604901a9df77c2996198a</application>
+        <comments/>
+        <file_path/>
+        <instance_id>b2d7f7b5ffb920006663762fa87efedd</instance_id>
+        <instance_name>nbsadev</instance_name>
+        <name>sys_user_role_8f31b5d8db4784101a9df77c2996191e</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description/><elevated_privilege>false</elevated_privilege><encryption_context/><grantable>true</grantable><includes_roles/><name>x_nyk_nbse_time_ca.nbse_timesheet_create</name><requires_subscription>-1</requires_subscription><scoped_admin>false</scoped_admin><suffix>nbse_timesheet_create</suffix><sys_class_name>sys_user_role</sys_class_name><sys_created_by>MANUJAG</sys_created_by><sys_created_on>2020-02-14 17:00:19</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>8f31b5d8db4784101a9df77c2996191e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_nyk_nbse_time_ca.nbse_timesheet_create</sys_name><sys_package display_value="NBSE Time Card" source="x_nyk_nbse_time_ca">00e16545dbf604901a9df77c2996198a</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="NBSE Time Card">00e16545dbf604901a9df77c2996198a</sys_scope><sys_update_name>sys_user_role_8f31b5d8db4784101a9df77c2996191e</sys_update_name><sys_updated_by>MANUJAG</sys_updated_by><sys_updated_on>2020-02-14 17:00:19</sys_updated_on><u_applications/><u_license_type>fulfiller</u_license_type><u_oob_or_custom/></sys_user_role></record_update>]]></payload>
+        <payload_hash>-344842307</payload_hash>
+        <record_name>x_nyk_nbse_time_ca.nbse_timesheet_create</record_name>
+        <reverted_from/>
+        <source>0ce16545dbf604901a9df77c2996198c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>MANUJAG</sys_created_by>
+        <sys_created_on>2020-02-14 17:00:19</sys_created_on>
+        <sys_id>9f41791cdb4784101a9df77c29961966</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17044a4dc810000001</sys_recorded_at>
+        <sys_updated_by>MANUJAG</sys_updated_by>
+        <sys_updated_on>2020-02-14 17:00:19</sys_updated_on>
+        <type>Role</type>
+        <update_guid>9741791c374784104d1e96987d855d66</update_guid>
+        <update_guid_history>9741791c374784104d1e96987d855d66:-344842307</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 02-21-2020 12:30:50">226bf52adb83cc101a9df77c29961991</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>GARGL</sys_created_by>
+        <sys_created_on>2020-02-21 17:30:50</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_user_role">sys_user_role</sys_db_object>
+        <sys_id>324ee268266549ac98e798d946ce8209</sys_id>
+        <sys_metadata>8f31b5d8db4784101a9df77c2996191e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_nyk_nbse_time_ca.nbse_timesheet_create</sys_name>
+        <sys_package display_value="NBSE Time Card" source="x_nyk_nbse_time_ca">00e16545dbf604901a9df77c2996198a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NBSE Time Card">00e16545dbf604901a9df77c2996198a</sys_scope>
+        <sys_scope_delete display_value="">794c9e7989a8442480c4438e5a152c49</sys_scope_delete>
+        <sys_update_name>sys_user_role_8f31b5d8db4784101a9df77c2996191e</sys_update_name>
+        <sys_update_version display_value="sys_user_role_8f31b5d8db4784101a9df77c2996191e">9f41791cdb4784101a9df77c29961966</sys_update_version>
+        <sys_updated_by>GARGL</sys_updated_by>
+        <sys_updated_on>2020-02-21 17:30:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

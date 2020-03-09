@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_entry">
+    <sys_transform_entry action="DELETE">
+        <choice_action>ignore</choice_action>
+        <coalesce>false</coalesce>
+        <coalesce_case_sensitive>false</coalesce_case_sensitive>
+        <coalesce_empty_fields>false</coalesce_empty_fields>
+        <date_format>yyyy-MM-dd hh:mm:ss</date_format>
+        <map display_value="u_imp_tmpl_x_nyk_nbse_time_ca_nbse_user_profile">782d98c81be34010f59b8734ec4bcb38</map>
+        <reference_value_field/>
+        <source_field>u_user_type</source_field>
+        <source_script>answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);</source_script>
+        <source_table>u_imp_tmpl_x_nyk_nbse_time_ca_nbse_user_profile</source_table>
+        <sys_class_name>sys_transform_entry</sys_class_name>
+        <sys_created_by>MANUJAG</sys_created_by>
+        <sys_created_on>2020-03-09 12:45:31</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>782d100c1be34010f59b8734ec4bcb8c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>u_user_type</sys_name>
+        <sys_package display_value="NBSE Time Card" source="x_nyk_nbse_time_ca">00e16545dbf604901a9df77c2996198a</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NBSE Time Card">00e16545dbf604901a9df77c2996198a</sys_scope>
+        <sys_update_name>sys_transform_entry_782d100c1be34010f59b8734ec4bcb8c</sys_update_name>
+        <sys_updated_by>MANUJAG</sys_updated_by>
+        <sys_updated_on>2020-03-09 12:45:31</sys_updated_on>
+        <target_field>user_type</target_field>
+        <target_table>x_nyk_nbse_time_ca_nbse_user_profile</target_table>
+        <use_source_script>false</use_source_script>
+    </sys_transform_entry>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NBSE Time Card">00e16545dbf604901a9df77c2996198a</application>
+        <comments/>
+        <file_path/>
+        <instance_id>b2d7f7b5ffb920006663762fa87efedd</instance_id>
+        <instance_name>nbsadev</instance_name>
+        <name>sys_transform_entry_782d100c1be34010f59b8734ec4bcb8c</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_entry"><sys_transform_entry action="INSERT_OR_UPDATE"><choice_action>ignore</choice_action><coalesce>false</coalesce><coalesce_case_sensitive>false</coalesce_case_sensitive><coalesce_empty_fields>false</coalesce_empty_fields><date_format>yyyy-MM-dd hh:mm:ss</date_format><map display_value="u_imp_tmpl_x_nyk_nbse_time_ca_nbse_user_profile">782d98c81be34010f59b8734ec4bcb38</map><reference_value_field/><source_field>u_user_type</source_field><source_script>answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);</source_script><source_table>u_imp_tmpl_x_nyk_nbse_time_ca_nbse_user_profile</source_table><sys_class_name>sys_transform_entry</sys_class_name><sys_created_by>MANUJAG</sys_created_by><sys_created_on>2020-03-09 12:45:31</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>782d100c1be34010f59b8734ec4bcb8c</sys_id><sys_mod_count>1</sys_mod_count><sys_name>u_user_type</sys_name><sys_package display_value="NBSE Time Card" source="x_nyk_nbse_time_ca">00e16545dbf604901a9df77c2996198a</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="NBSE Time Card">00e16545dbf604901a9df77c2996198a</sys_scope><sys_update_name>sys_transform_entry_782d100c1be34010f59b8734ec4bcb8c</sys_update_name><sys_updated_by>MANUJAG</sys_updated_by><sys_updated_on>2020-03-09 12:45:31</sys_updated_on><target_field>user_type</target_field><target_table>x_nyk_nbse_time_ca_nbse_user_profile</target_table><use_source_script>false</use_source_script></sys_transform_entry></record_update>]]></payload>
+        <payload_hash>1442057107</payload_hash>
+        <record_name>u_user_type</record_name>
+        <reverted_from/>
+        <source>0ce16545dbf604901a9df77c2996198c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>MANUJAG</sys_created_by>
+        <sys_created_on>2020-03-09 12:45:31</sys_created_on>
+        <sys_id>742d100c1be34010f59b8734ec4bcb8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170bf5434180000001</sys_recorded_at>
+        <sys_updated_by>MANUJAG</sys_updated_by>
+        <sys_updated_on>2020-03-09 12:45:31</sys_updated_on>
+        <type>Field Map</type>
+        <update_guid>3c2d100cc9e34010b3e4b656bb91438e</update_guid>
+        <update_guid_history>3c2d100cc9e34010b3e4b656bb91438e:1442057107,b02d100cade340108b178033b52f478d:-509535555</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>MANUJAG</sys_created_by>
+        <sys_created_on>2020-03-09 13:52:34</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_transform_entry">sys_transform_entry</sys_db_object>
+        <sys_id>40b9db29f49d46b8901e4d723e41cf90</sys_id>
+        <sys_metadata>782d100c1be34010f59b8734ec4bcb8c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_user_type</sys_name>
+        <sys_package display_value="NBSE Time Card" source="x_nyk_nbse_time_ca">00e16545dbf604901a9df77c2996198a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NBSE Time Card">00e16545dbf604901a9df77c2996198a</sys_scope>
+        <sys_scope_delete display_value="">794c9e7989a8442480c4438e5a152c49</sys_scope_delete>
+        <sys_update_name>sys_transform_entry_782d100c1be34010f59b8734ec4bcb8c</sys_update_name>
+        <sys_update_version display_value="sys_transform_entry_782d100c1be34010f59b8734ec4bcb8c">742d100c1be34010f59b8734ec4bcb8f</sys_update_version>
+        <sys_updated_by>MANUJAG</sys_updated_by>
+        <sys_updated_on>2020-03-09 13:52:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

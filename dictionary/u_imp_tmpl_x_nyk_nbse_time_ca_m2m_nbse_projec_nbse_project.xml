@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Imp Tmpl X Nyk Nbse Time Ca M2m Nbse Projec Nbse Project" max_length="40" name="u_imp_tmpl_x_nyk_nbse_time_ca_m2m_nbse_projec_nbse_project" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=NBSE Projects" label="NBSE Projects" max_length="32" name="u_nbse_projects" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=NBSE Project Work Type" label="NBSE Project Work Type" max_length="32" name="u_nbse_project_work_type" type="string"/>
+    </element>
+</database>

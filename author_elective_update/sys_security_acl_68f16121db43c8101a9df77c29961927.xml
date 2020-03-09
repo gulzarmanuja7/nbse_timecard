@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>false</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_nyk_nbse_time_ca_nbse_non_work_time</description>
+        <name>x_nyk_nbse_time_ca_nbse_non_work_time</name>
+        <operation display_value="create">create</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>MANUJAG</sys_created_by>
+        <sys_created_on>2020-02-18 13:05:39</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>68f16121db43c8101a9df77c29961927</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_nyk_nbse_time_ca_nbse_non_work_time</sys_name>
+        <sys_package display_value="NBSE Time Card" source="x_nyk_nbse_time_ca">00e16545dbf604901a9df77c2996198a</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NBSE Time Card">00e16545dbf604901a9df77c2996198a</sys_scope>
+        <sys_update_name>sys_security_acl_68f16121db43c8101a9df77c29961927</sys_update_name>
+        <sys_updated_by>GARGL</sys_updated_by>
+        <sys_updated_on>2020-02-21 06:26:57</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NBSE Time Card">00e16545dbf604901a9df77c2996198a</application>
+        <comments/>
+        <file_path/>
+        <instance_id>b2d7f7b5ffb920006663762fa87efedd</instance_id>
+        <instance_name>nbsadev</instance_name>
+        <name>sys_security_acl_68f16121db43c8101a9df77c29961927</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>false</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_nyk_nbse_time_ca_nbse_non_work_time</description><name>x_nyk_nbse_time_ca_nbse_non_work_time</name><operation display_value="create">create</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>MANUJAG</sys_created_by><sys_created_on>2020-02-18 13:05:39</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>68f16121db43c8101a9df77c29961927</sys_id><sys_mod_count>1</sys_mod_count><sys_name>x_nyk_nbse_time_ca_nbse_non_work_time</sys_name><sys_package display_value="NBSE Time Card" source="x_nyk_nbse_time_ca">00e16545dbf604901a9df77c2996198a</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="NBSE Time Card">00e16545dbf604901a9df77c2996198a</sys_scope><sys_update_name>sys_security_acl_68f16121db43c8101a9df77c29961927</sys_update_name><sys_updated_by>GARGL</sys_updated_by><sys_updated_on>2020-02-21 06:26:57</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>-19727228</payload_hash>
+        <record_name>x_nyk_nbse_time_ca_nbse_non_work_time</record_name>
+        <reverted_from/>
+        <source>0ce16545dbf604901a9df77c2996198c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>GARGL</sys_created_by>
+        <sys_created_on>2020-02-21 06:26:57</sys_created_on>
+        <sys_id>ed732b9edb0b8c101a9df77c299619f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170666d805f0000001</sys_recorded_at>
+        <sys_updated_by>GARGL</sys_updated_by>
+        <sys_updated_on>2020-02-21 06:26:57</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>a5732b9ed00b8c104c0d225929d239f8</update_guid>
+        <update_guid_history>a5732b9ed00b8c104c0d225929d239f8:-19727228,38f161212f43c81084164b1d2f6fd42b:-1521049827</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>GARGL</sys_created_by>
+        <sys_created_on>2020-02-21 15:58:12</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>36350748765e4eeebfe25c1058f31541</sys_id>
+        <sys_metadata>68f16121db43c8101a9df77c29961927</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_nyk_nbse_time_ca_nbse_non_work_time</sys_name>
+        <sys_package display_value="NBSE Time Card" source="x_nyk_nbse_time_ca">00e16545dbf604901a9df77c2996198a</sys_package>
+        <sys_parent display_value="">38f16121db43c8101a9df77c29961982</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NBSE Time Card">00e16545dbf604901a9df77c2996198a</sys_scope>
+        <sys_scope_delete display_value="">794c9e7989a8442480c4438e5a152c49</sys_scope_delete>
+        <sys_update_name>sys_security_acl_68f16121db43c8101a9df77c29961927</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_68f16121db43c8101a9df77c29961927">ed732b9edb0b8c101a9df77c299619f8</sys_update_version>
+        <sys_updated_by>GARGL</sys_updated_by>
+        <sys_updated_on>2020-02-21 15:58:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

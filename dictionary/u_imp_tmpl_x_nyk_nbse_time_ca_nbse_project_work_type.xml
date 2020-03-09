@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Imp Tmpl X Nyk Nbse Time Ca Nbse Project Work Type" max_length="40" name="u_imp_tmpl_x_nyk_nbse_time_ca_nbse_project_work_type" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Default" label="Default" max_length="40" name="u_default" type="string"/>
+        <element attributes="import_attribute_name=Interval" label="Interval" max_length="38" name="u_interval" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=isExceptionTime?" label="isExceptionTime?" max_length="40" name="u_isexceptiontime_" type="string"/>
+        <element attributes="import_attribute_name=Maximum Hours" label="Maximum Hours" max_length="40" name="u_maximum_hours" type="integer"/>
+        <element attributes="import_attribute_name=Minimum Hours" label="Minimum Hours" max_length="38" name="u_minimum_hours" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Project Work Type" label="Project Work Type" max_length="100" name="u_project_work_type" type="string"/>
+    </element>
+</database>

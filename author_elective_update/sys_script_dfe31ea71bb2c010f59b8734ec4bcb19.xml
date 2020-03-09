@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_label/>
+        <action_name/>
+        <action_query>false</action_query>
+        <action_run_at>server</action_run_at>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <application/>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_nyk_nbse_time_ca_nbse_timesheet</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_nyk_nbse_time_ca_nbse_timesheet">resource_type=PTE^ORresource.user_type=PTE^EQ<item display_value="PTE" endquery="false" field="resource_type" goto="false" newquery="false" operator="=" or="false" value="PTE"/>
+            <item display_value="PTE" endquery="false" field="resource.user_type" goto="false" newquery="false" operator="=" or="true" value="PTE"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Copy PTE Working Days from User Profile</name>
+        <onclick/>
+        <order>100</order>
+        <priority>100</priority>
+        <read_access_action>false</read_access_action>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	current.working_days_for_pte = current.resource.working_days_for_pte;
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>GARGL</sys_created_by>
+        <sys_created_on>2020-02-12 11:38:32</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>dfe31ea71bb2c010f59b8734ec4bcb19</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Copy PTE Working Days from User Profile</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NBSE Time Card" source="x_nyk_nbse_time_ca">00e16545dbf604901a9df77c2996198a</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NBSE Time Card">00e16545dbf604901a9df77c2996198a</sys_scope>
+        <sys_update_name>sys_script_dfe31ea71bb2c010f59b8734ec4bcb19</sys_update_name>
+        <sys_updated_by>GARGL</sys_updated_by>
+        <sys_updated_on>2020-02-12 11:41:49</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NBSE Time Card">00e16545dbf604901a9df77c2996198a</application>
+        <comments/>
+        <file_path/>
+        <instance_id>b2d7f7b5ffb920006663762fa87efedd</instance_id>
+        <instance_name>nbsadev</instance_name>
+        <name>sys_script_dfe31ea71bb2c010f59b8734ec4bcb19</name>
+        <order/>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_label/&gt;&lt;action_name/&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_run_at&gt;server&lt;/action_run_at&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;application/&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_nyk_nbse_time_ca_nbse_timesheet&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="x_nyk_nbse_time_ca_nbse_timesheet"&gt;resource_type=PTE^ORresource.user_type=PTE^EQ&lt;item display_value="PTE" endquery="false" field="resource_type" goto="false" newquery="false" operator="=" or="false" value="PTE"/&gt;&lt;item display_value="PTE" endquery="false" field="resource.user_type" goto="false" newquery="false" operator="=" or="true" value="PTE"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Copy PTE Working Days from User Profile&lt;/name&gt;&lt;onclick/&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;read_access_action&gt;false&lt;/read_access_action&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	current.working_days_for_pte = current.resource.working_days_for_pte;
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;GARGL&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-02-12 11:38:32&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;dfe31ea71bb2c010f59b8734ec4bcb19&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;Copy PTE Working Days from User Profile&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="NBSE Time Card" source="x_nyk_nbse_time_ca"&gt;00e16545dbf604901a9df77c2996198a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="NBSE Time Card"&gt;00e16545dbf604901a9df77c2996198a&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_dfe31ea71bb2c010f59b8734ec4bcb19&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;GARGL&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-02-12 11:41:49&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1402327296</payload_hash>
+        <record_name>Copy PTE Working Days from User Profile</record_name>
+        <reverted_from/>
+        <source>0ce16545dbf604901a9df77c2996198c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>GARGL</sys_created_by>
+        <sys_created_on>2020-02-12 11:41:49</sys_created_on>
+        <sys_id>ce355ae71bb2c010f59b8734ec4bcb25</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17039348b1e0000001</sys_recorded_at>
+        <sys_updated_by>GARGL</sys_updated_by>
+        <sys_updated_on>2020-02-12 11:41:49</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>82355ae7f8b2c010725e49a6ece93b25</update_guid>
+        <update_guid_history>82355ae7f8b2c010725e49a6ece93b25:1402327296,9d05522b6ab2c01073939cb00b968f76:-2123423727,61b41ee71bb2c01018e9d31fc043edc4:1000674470,867412e718b2c01023178e55a913237d:-470997798</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>GARGL</sys_created_by>
+        <sys_created_on>2020-02-28 16:57:35</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>00a3bfabec414b6d8002645acb5fd029</sys_id>
+        <sys_metadata>dfe31ea71bb2c010f59b8734ec4bcb19</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Copy PTE Working Days from User Profile</sys_name>
+        <sys_package display_value="NBSE Time Card" source="x_nyk_nbse_time_ca">00e16545dbf604901a9df77c2996198a</sys_package>
+        <sys_parent display_value="NBSE Timesheet">f922b109db3a04901a9df77c29961972</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NBSE Time Card">00e16545dbf604901a9df77c2996198a</sys_scope>
+        <sys_scope_delete display_value="">794c9e7989a8442480c4438e5a152c49</sys_scope_delete>
+        <sys_update_name>sys_script_dfe31ea71bb2c010f59b8734ec4bcb19</sys_update_name>
+        <sys_update_version display_value="sys_script_dfe31ea71bb2c010f59b8734ec4bcb19">ce355ae71bb2c010f59b8734ec4bcb25</sys_update_version>
+        <sys_updated_by>GARGL</sys_updated_by>
+        <sys_updated_on>2020-02-28 16:57:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

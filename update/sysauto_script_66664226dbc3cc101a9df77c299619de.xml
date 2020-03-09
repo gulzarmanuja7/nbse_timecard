@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <conditional>false</conditional>
+        <name>NBSE Timesheet - Auto Create Timesheets Weekly for All Employees and Contractors</name>
+        <run_as/>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2020-02-21 18:18:54</run_start>
+        <run_time>1970-01-01 15:00:00</run_time>
+        <run_type>weekly</run_type>
+        <script><![CDATA[/*
+ * Author: Lavlesh Garg, Feb, 21, 2020
+ * Purpose of this Job is to Automatically Creates Timesheets for all the Active Employees (PTE, FTE, Contractors)
+ * For the Next Monday (if today is Monday, then creates for today)
+ * If a timesheet already doesn't exists for the employee for that day
+ */
+
+timesheetAutoCreation();
+
+function timesheetAutoCreation() {
+	var TABLE_USER_PROFILE = 'x_nyk_nbse_time_ca_nbse_user_profile';
+	var TABLE_TIMESHEET    = 'x_nyk_nbse_time_ca_nbse_timesheet';
+	var su = new global.NBSA_SNUtils();
+	var au = new global.ArrayUtil();
+	
+	var mondayDate = new GlideDateTime();
+	// Get the earliest Monday in Future including today
+	while (mondayDate.getDayOfWeekUTC() != 1)
+		mondayDate.addDaysUTC(1);
+	mondayDate = mondayDate.getDate();
+	// Retrieve All the Active User Profile Sys IDs
+	var activeUserProfile = su.getA(TABLE_USER_PROFILE, ['profile_status=Active'], ['sys_id']);
+	var activeUserProfileCount = activeUserProfile.length;
+	
+	// Now, Retreive all the Timesheets for the Date we want to creates timesheets for
+	// So we don't try to create duplicates
+	// (though even if we try, it will fail as we have a business rule which wouldn't allow duplicates)
+	var timeSheet = new GlideRecord(TABLE_TIMESHEET);
+	var queryStr = "week_start="+mondayDate;
+	timeSheet.addEncodedQuery(queryStr);
+	timeSheet.query();
+	
+	// Store the User Profile Sys IDs of all the users who already have a timesheet
+	var userProfilesWithPreExistingTS = [];
+	while (timeSheet.next()) {
+		userProfilesWithPreExistingTS.push(timeSheet.getValue('resource'));
+	}
+	
+	var autoCreatedTimesheet = [];
+	activeUserProfile.forEach(function(up) {
+		// Generate Timesheets for the users who doesn't already have a timesheet create
+		if (!au.contains(userProfilesWithPreExistingTS, up)) {
+			autoCreatedTimesheet.push(generateTimeSheet(up.toString(), mondayDate, 'Open'));
+		}
+	});
+
+	gs.info('NBSE Timesheet Auto Creation - Total Active User Profiles: '+activeUserProfileCount+' ['+activeUserProfile.toString()+']\nTotal Pre-existing Timesheets for week '+mondayDate.getDisplayValue()+': '+userProfilesWithPreExistingTS.length+'\nsys_ids of user profiles with pre-existing timesheets: ['+userProfilesWithPreExistingTS.toString()+']\nTotal Auto Created Timesheets: '+autoCreatedTimesheet.length+'\nsys_ids of created timesheets: ['+autoCreatedTimesheet.toString()+']');
+}
+
+function generateTimeSheet(resource, weekStart, state) {
+	gs.debug('NBSE Timesheet Auto Creation - resource: '+resource+', weekStart: '+weekStart+', state: '+state);
+	var TABLE_TIMESHEET = 'x_nyk_nbse_time_ca_nbse_timesheet';
+	var timeSheet = new GlideRecord(TABLE_TIMESHEET);
+	timeSheet.initialize();
+	timeSheet.resource = resource;
+	timeSheet.week_start = weekStart;
+	timeSheet.state = state == undefined? 'Open' : state;
+	var sysID = timeSheet.insert();
+	gs.debug('NBSE Timesheet Auto Creation - resource: '+resource+', timeSheet sysID: '+sysID);
+	return sysID;
+}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>GARGL</sys_created_by>
+        <sys_created_on>2020-02-21 18:26:27</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>66664226dbc3cc101a9df77c299619de</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>NBSE Timesheet - Auto Create Timesheets Weekly for All Employees and Contractors</sys_name>
+        <sys_package display_value="NBSE Time Card" source="x_nyk_nbse_time_ca">00e16545dbf604901a9df77c2996198a</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NBSE Time Card">00e16545dbf604901a9df77c2996198a</sys_scope>
+        <sys_update_name>sysauto_script_66664226dbc3cc101a9df77c299619de</sys_update_name>
+        <sys_updated_by>MANUJAG</sys_updated_by>
+        <sys_updated_on>2020-02-28 14:11:20</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

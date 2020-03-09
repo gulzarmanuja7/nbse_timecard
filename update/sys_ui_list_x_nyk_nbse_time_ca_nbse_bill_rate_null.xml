@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_nyk_nbse_time_ca_nbse_bill_rate" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>user.name</element>
+            <list_id display_value="x_nyk_nbse_time_ca_nbse_bill_rate" element="NULL" name="x_nyk_nbse_time_ca_nbse_bill_rate" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">18e77baddbbe84901a9df77c29961991</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>MANUJAG</sys_created_by>
+            <sys_created_on>2020-02-06 13:45:01</sys_created_on>
+            <sys_id>d4e77baddbbe84901a9df77c29961993</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>MANUJAG</sys_updated_by>
+            <sys_updated_on>2020-02-06 13:45:01</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>user.email_address</element>
+            <list_id display_value="x_nyk_nbse_time_ca_nbse_bill_rate" element="NULL" name="x_nyk_nbse_time_ca_nbse_bill_rate" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">18e77baddbbe84901a9df77c29961991</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>MANUJAG</sys_created_by>
+            <sys_created_on>2020-02-06 13:45:01</sys_created_on>
+            <sys_id>90e77baddbbe84901a9df77c29961994</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>MANUJAG</sys_updated_by>
+            <sys_updated_on>2020-02-06 13:45:01</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>user.profile_status</element>
+            <list_id display_value="x_nyk_nbse_time_ca_nbse_bill_rate" element="NULL" name="x_nyk_nbse_time_ca_nbse_bill_rate" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">18e77baddbbe84901a9df77c29961991</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>MANUJAG</sys_created_by>
+            <sys_created_on>2020-02-06 13:45:01</sys_created_on>
+            <sys_id>14e77baddbbe84901a9df77c29961994</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>MANUJAG</sys_updated_by>
+            <sys_updated_on>2020-02-06 13:45:01</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>effective_from_date</element>
+            <list_id display_value="x_nyk_nbse_time_ca_nbse_bill_rate" element="NULL" name="x_nyk_nbse_time_ca_nbse_bill_rate" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">18e77baddbbe84901a9df77c29961991</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>MANUJAG</sys_created_by>
+            <sys_created_on>2020-02-06 13:45:01</sys_created_on>
+            <sys_id>94e77baddbbe84901a9df77c29961994</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>MANUJAG</sys_updated_by>
+            <sys_updated_on>2020-02-06 13:45:01</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>effective_till_date</element>
+            <list_id display_value="x_nyk_nbse_time_ca_nbse_bill_rate" element="NULL" name="x_nyk_nbse_time_ca_nbse_bill_rate" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">18e77baddbbe84901a9df77c29961991</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>MANUJAG</sys_created_by>
+            <sys_created_on>2020-02-06 13:45:01</sys_created_on>
+            <sys_id>18e77baddbbe84901a9df77c29961994</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>MANUJAG</sys_updated_by>
+            <sys_updated_on>2020-02-06 13:45:01</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>index_rate</element>
+            <list_id display_value="x_nyk_nbse_time_ca_nbse_bill_rate" element="NULL" name="x_nyk_nbse_time_ca_nbse_bill_rate" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">18e77baddbbe84901a9df77c29961991</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>MANUJAG</sys_created_by>
+            <sys_created_on>2020-02-06 13:45:01</sys_created_on>
+            <sys_id>98e77baddbbe84901a9df77c29961994</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>MANUJAG</sys_updated_by>
+            <sys_updated_on>2020-02-06 13:45:01</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>bill_rate</element>
+            <list_id display_value="x_nyk_nbse_time_ca_nbse_bill_rate" element="NULL" name="x_nyk_nbse_time_ca_nbse_bill_rate" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">18e77baddbbe84901a9df77c29961991</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>MANUJAG</sys_created_by>
+            <sys_created_on>2020-02-06 13:45:01</sys_created_on>
+            <sys_id>1ce77baddbbe84901a9df77c29961994</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>MANUJAG</sys_updated_by>
+            <sys_updated_on>2020-02-06 13:45:01</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>total_hours_on_this_rate</element>
+            <list_id display_value="x_nyk_nbse_time_ca_nbse_bill_rate" element="NULL" name="x_nyk_nbse_time_ca_nbse_bill_rate" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">18e77baddbbe84901a9df77c29961991</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>MANUJAG</sys_created_by>
+            <sys_created_on>2020-02-06 13:45:01</sys_created_on>
+            <sys_id>9ce77baddbbe84901a9df77c29961994</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>MANUJAG</sys_updated_by>
+            <sys_updated_on>2020-02-06 13:45:01</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_nyk_nbse_time_ca_nbse_bill_rate</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>MANUJAG</sys_created_by>
+            <sys_created_on>2020-02-06 13:45:01</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>18e77baddbbe84901a9df77c29961991</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_nyk_nbse_time_ca_nbse_bill_rate</sys_name>
+            <sys_package display_value="NBSE Time Card" source="x_nyk_nbse_time_ca">00e16545dbf604901a9df77c2996198a</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="NBSE Time Card">00e16545dbf604901a9df77c2996198a</sys_scope>
+            <sys_update_name>sys_ui_list_x_nyk_nbse_time_ca_nbse_bill_rate_null</sys_update_name>
+            <sys_updated_by>MANUJAG</sys_updated_by>
+            <sys_updated_on>2020-02-06 13:45:01</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

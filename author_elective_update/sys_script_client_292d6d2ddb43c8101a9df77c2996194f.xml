@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>true</applies_extended>
+        <condition/>
+        <description/>
+        <field>sys_class_name</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Disable NWT for Non New Records</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	if(!g_form.isNewRecord())
+		g_form.setReadOnly('nwt', true);
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>MANUJAG</sys_created_by>
+        <sys_created_on>2020-02-18 13:55:24</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path/>
+        <sys_id>292d6d2ddb43c8101a9df77c2996194f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Disable NWT for Non New Records</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NBSE Time Card" source="x_nyk_nbse_time_ca">00e16545dbf604901a9df77c2996198a</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NBSE Time Card">00e16545dbf604901a9df77c2996198a</sys_scope>
+        <sys_update_name>sys_script_client_292d6d2ddb43c8101a9df77c2996194f</sys_update_name>
+        <sys_updated_by>MANUJAG</sys_updated_by>
+        <sys_updated_on>2020-02-18 13:55:24</sys_updated_on>
+        <table>x_nyk_nbse_time_ca_nbse_non_work_time</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NBSE Time Card">00e16545dbf604901a9df77c2996198a</application>
+        <comments/>
+        <file_path/>
+        <instance_id>b2d7f7b5ffb920006663762fa87efedd</instance_id>
+        <instance_name>nbsadev</instance_name>
+        <name>sys_script_client_292d6d2ddb43c8101a9df77c2996194f</name>
+        <order/>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;true&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;sys_class_name&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Disable NWT for Non New Records&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+	if(!g_form.isNewRecord())
+		g_form.setReadOnly('nwt', true);
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;MANUJAG&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-02-18 13:55:24&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path/&gt;&lt;sys_id&gt;292d6d2ddb43c8101a9df77c2996194f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Disable NWT for Non New Records&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="NBSE Time Card" source="x_nyk_nbse_time_ca"&gt;00e16545dbf604901a9df77c2996198a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="NBSE Time Card"&gt;00e16545dbf604901a9df77c2996198a&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_292d6d2ddb43c8101a9df77c2996194f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;MANUJAG&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-02-18 13:55:24&lt;/sys_updated_on&gt;&lt;table&gt;x_nyk_nbse_time_ca_nbse_non_work_time&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-406720062</payload_hash>
+        <record_name>Disable NWT for Non New Records</record_name>
+        <reverted_from/>
+        <source>0ce16545dbf604901a9df77c2996198c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>MANUJAG</sys_created_by>
+        <sys_created_on>2020-02-18 13:55:24</sys_created_on>
+        <sys_id>e15da52ddb43c8101a9df77c299619bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170589500620000001</sys_recorded_at>
+        <sys_updated_by>MANUJAG</sys_updated_by>
+        <sys_updated_on>2020-02-18 13:55:24</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>e95da52ddc43c81099ee0eb90b0f7cbe</update_guid>
+        <update_guid_history>e95da52ddc43c81099ee0eb90b0f7cbe:-406720062</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>GARGL</sys_created_by>
+        <sys_created_on>2020-02-24 09:38:19</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>17f3644863554d629a807fb15271c524</sys_id>
+        <sys_metadata>292d6d2ddb43c8101a9df77c2996194f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Disable NWT for Non New Records</sys_name>
+        <sys_package display_value="NBSE Time Card" source="x_nyk_nbse_time_ca">00e16545dbf604901a9df77c2996198a</sys_package>
+        <sys_parent display_value="">017169eddb03c8101a9df77c29961962</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NBSE Time Card">00e16545dbf604901a9df77c2996198a</sys_scope>
+        <sys_scope_delete display_value="">794c9e7989a8442480c4438e5a152c49</sys_scope_delete>
+        <sys_update_name>sys_script_client_292d6d2ddb43c8101a9df77c2996194f</sys_update_name>
+        <sys_update_version display_value="sys_script_client_292d6d2ddb43c8101a9df77c2996194f">e15da52ddb43c8101a9df77c299619bf</sys_update_version>
+        <sys_updated_by>GARGL</sys_updated_by>
+        <sys_updated_on>2020-02-24 09:38:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

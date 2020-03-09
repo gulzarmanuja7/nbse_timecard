@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="" section_id="f61eb765dbfe84901a9df77c299619d7" sys_domain="global" table="u_imp_tmpl_x_nyk_nbse_time_ca_nbse_holidays" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>MANUJAG</sys_created_by>
+            <sys_created_on>2020-02-06 14:12:13</sys_created_on>
+            <sys_id>7a1eb765dbfe84901a9df77c299619d9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_nyk_nbse_time_ca_nbse_holidays" sys_domain="global" view="Default view">f61eb765dbfe84901a9df77c299619d7</sys_ui_section>
+            <sys_updated_by>MANUJAG</sys_updated_by>
+            <sys_updated_on>2020-02-06 14:12:13</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_name</element>
+            <position>1</position>
+            <sys_created_by>MANUJAG</sys_created_by>
+            <sys_created_on>2020-02-06 14:12:13</sys_created_on>
+            <sys_id>f21eb765dbfe84901a9df77c299619da</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_nyk_nbse_time_ca_nbse_holidays" sys_domain="global" view="Default view">f61eb765dbfe84901a9df77c299619d7</sys_ui_section>
+            <sys_updated_by>MANUJAG</sys_updated_by>
+            <sys_updated_on>2020-02-06 14:12:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>MANUJAG</sys_created_by>
+            <sys_created_on>2020-02-06 14:12:13</sys_created_on>
+            <sys_id>761eb765dbfe84901a9df77c299619da</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_nyk_nbse_time_ca_nbse_holidays" sys_domain="global" view="Default view">f61eb765dbfe84901a9df77c299619d7</sys_ui_section>
+            <sys_updated_by>MANUJAG</sys_updated_by>
+            <sys_updated_on>2020-02-06 14:12:13</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_date</element>
+            <position>3</position>
+            <sys_created_by>MANUJAG</sys_created_by>
+            <sys_created_on>2020-02-06 14:12:13</sys_created_on>
+            <sys_id>f61eb765dbfe84901a9df77c299619da</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_nyk_nbse_time_ca_nbse_holidays" sys_domain="global" view="Default view">f61eb765dbfe84901a9df77c299619d7</sys_ui_section>
+            <sys_updated_by>MANUJAG</sys_updated_by>
+            <sys_updated_on>2020-02-06 14:12:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>4</position>
+            <sys_created_by>MANUJAG</sys_created_by>
+            <sys_created_on>2020-02-06 14:12:13</sys_created_on>
+            <sys_id>7a1eb765dbfe84901a9df77c299619da</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_nyk_nbse_time_ca_nbse_holidays" sys_domain="global" view="Default view">f61eb765dbfe84901a9df77c299619d7</sys_ui_section>
+            <sys_updated_by>MANUJAG</sys_updated_by>
+            <sys_updated_on>2020-02-06 14:12:13</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>template_import_log.message</element>
+            <position>5</position>
+            <sys_created_by>MANUJAG</sys_created_by>
+            <sys_created_on>2020-02-06 14:12:13</sys_created_on>
+            <sys_id>fa1eb765dbfe84901a9df77c299619da</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_nyk_nbse_time_ca_nbse_holidays" sys_domain="global" view="Default view">f61eb765dbfe84901a9df77c299619d7</sys_ui_section>
+            <sys_updated_by>MANUJAG</sys_updated_by>
+            <sys_updated_on>2020-02-06 14:12:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption/>
+            <header>false</header>
+            <name>u_imp_tmpl_x_nyk_nbse_time_ca_nbse_holidays</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>MANUJAG</sys_created_by>
+            <sys_created_on>2020-02-06 14:12:13</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f61eb765dbfe84901a9df77c299619d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_imp_tmpl_x_nyk_nbse_time_ca_nbse_holidays</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="NBSE Time Card" source="x_nyk_nbse_time_ca">00e16545dbf604901a9df77c2996198a</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="NBSE Time Card">00e16545dbf604901a9df77c2996198a</sys_scope>
+            <sys_update_name>sys_ui_section_f61eb765dbfe84901a9df77c299619d7</sys_update_name>
+            <sys_updated_by>MANUJAG</sys_updated_by>
+            <sys_updated_on>2020-02-06 14:12:13</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NBSE Time Card">00e16545dbf604901a9df77c2996198a</application>
+        <comments/>
+        <file_path/>
+        <instance_id>b2d7f7b5ffb920006663762fa87efedd</instance_id>
+        <instance_name>nbsadev</instance_name>
+        <name>sys_ui_section_f61eb765dbfe84901a9df77c299619d7</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="f61eb765dbfe84901a9df77c299619d7" sys_domain="global" table="u_imp_tmpl_x_nyk_nbse_time_ca_nbse_holidays" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>.begin_split</element><position>0</position><sys_created_by>MANUJAG</sys_created_by><sys_created_on>2020-02-06 14:12:13</sys_created_on><sys_id>7a1eb765dbfe84901a9df77c299619d9</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_nyk_nbse_time_ca_nbse_holidays" sys_domain="global" view="Default view">f61eb765dbfe84901a9df77c299619d7</sys_ui_section><sys_updated_by>MANUJAG</sys_updated_by><sys_updated_on>2020-02-06 14:12:13</sys_updated_on><sys_user/><type>.begin_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_name</element><position>1</position><sys_created_by>MANUJAG</sys_created_by><sys_created_on>2020-02-06 14:12:13</sys_created_on><sys_id>f21eb765dbfe84901a9df77c299619da</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_nyk_nbse_time_ca_nbse_holidays" sys_domain="global" view="Default view">f61eb765dbfe84901a9df77c299619d7</sys_ui_section><sys_updated_by>MANUJAG</sys_updated_by><sys_updated_on>2020-02-06 14:12:13</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>2</position><sys_created_by>MANUJAG</sys_created_by><sys_created_on>2020-02-06 14:12:13</sys_created_on><sys_id>761eb765dbfe84901a9df77c299619da</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_nyk_nbse_time_ca_nbse_holidays" sys_domain="global" view="Default view">f61eb765dbfe84901a9df77c299619d7</sys_ui_section><sys_updated_by>MANUJAG</sys_updated_by><sys_updated_on>2020-02-06 14:12:13</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_date</element><position>3</position><sys_created_by>MANUJAG</sys_created_by><sys_created_on>2020-02-06 14:12:13</sys_created_on><sys_id>f61eb765dbfe84901a9df77c299619da</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_nyk_nbse_time_ca_nbse_holidays" sys_domain="global" view="Default view">f61eb765dbfe84901a9df77c299619d7</sys_ui_section><sys_updated_by>MANUJAG</sys_updated_by><sys_updated_on>2020-02-06 14:12:13</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>4</position><sys_created_by>MANUJAG</sys_created_by><sys_created_on>2020-02-06 14:12:13</sys_created_on><sys_id>7a1eb765dbfe84901a9df77c299619da</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_nyk_nbse_time_ca_nbse_holidays" sys_domain="global" view="Default view">f61eb765dbfe84901a9df77c299619d7</sys_ui_section><sys_updated_by>MANUJAG</sys_updated_by><sys_updated_on>2020-02-06 14:12:13</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>template_import_log.message</element><position>5</position><sys_created_by>MANUJAG</sys_created_by><sys_created_on>2020-02-06 14:12:13</sys_created_on><sys_id>fa1eb765dbfe84901a9df77c299619da</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_nyk_nbse_time_ca_nbse_holidays" sys_domain="global" view="Default view">f61eb765dbfe84901a9df77c299619d7</sys_ui_section><sys_updated_by>MANUJAG</sys_updated_by><sys_updated_on>2020-02-06 14:12:13</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>u_imp_tmpl_x_nyk_nbse_time_ca_nbse_holidays</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>MANUJAG</sys_created_by><sys_created_on>2020-02-06 14:12:13</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>f61eb765dbfe84901a9df77c299619d7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_imp_tmpl_x_nyk_nbse_time_ca_nbse_holidays</sys_name><sys_overrides/><sys_package display_value="NBSE Time Card" source="x_nyk_nbse_time_ca">00e16545dbf604901a9df77c2996198a</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="NBSE Time Card">00e16545dbf604901a9df77c2996198a</sys_scope><sys_update_name>sys_ui_section_f61eb765dbfe84901a9df77c299619d7</sys_update_name><sys_updated_by>MANUJAG</sys_updated_by><sys_updated_on>2020-02-06 14:12:13</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-1295173269</payload_hash>
+        <record_name>Imp Tmpl X Nyk Nbse Time Ca Nbse Holidays</record_name>
+        <reverted_from/>
+        <source>0ce16545dbf604901a9df77c2996198c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>MANUJAG</sys_created_by>
+        <sys_created_on>2020-02-06 14:12:13</sys_created_on>
+        <sys_id>fa1eb765dbfe84901a9df77c299619dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1701ad815270000001</sys_recorded_at>
+        <sys_updated_by>MANUJAG</sys_updated_by>
+        <sys_updated_on>2020-02-06 14:12:13</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>761eb765a0fe8490887a17dbbeceafdc</update_guid>
+        <update_guid_history>761eb765a0fe8490887a17dbbeceafdc:-1295173269</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>GARGL</sys_created_by>
+        <sys_created_on>2020-02-24 09:42:52</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>1d25f89623004ab0854b94da5ec54810</sys_id>
+        <sys_metadata>f61eb765dbfe84901a9df77c299619d7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_imp_tmpl_x_nyk_nbse_time_ca_nbse_holidays</sys_name>
+        <sys_package display_value="NBSE Time Card" source="x_nyk_nbse_time_ca">00e16545dbf604901a9df77c2996198a</sys_package>
+        <sys_parent display_value="">ee1eb765dbfe84901a9df77c29961994</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NBSE Time Card">00e16545dbf604901a9df77c2996198a</sys_scope>
+        <sys_scope_delete display_value="">794c9e7989a8442480c4438e5a152c49</sys_scope_delete>
+        <sys_update_name>sys_ui_section_f61eb765dbfe84901a9df77c299619d7</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_f61eb765dbfe84901a9df77c299619d7">fa1eb765dbfe84901a9df77c299619dc</sys_update_version>
+        <sys_updated_by>GARGL</sys_updated_by>
+        <sys_updated_on>2020-02-24 09:42:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

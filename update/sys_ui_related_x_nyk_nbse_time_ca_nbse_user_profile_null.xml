@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="x_nyk_nbse_time_ca_nbse_user_profile" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="NBSE User Profile - Default view" name="x_nyk_nbse_time_ca_nbse_user_profile" related_list="NULL" sys_domain="global" view="Default view">f9d00d55db8f48101a9df77c299619e8</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>x_nyk_nbse_time_ca_nbse_bill_rate.user</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>MANUJAG</sys_created_by>
+            <sys_created_on>2020-02-17 16:02:31</sys_created_on>
+            <sys_id>7dd00d55db8f48101a9df77c299619ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>MANUJAG</sys_updated_by>
+            <sys_updated_on>2020-02-17 16:02:31</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="NBSE User Profile - Default view" name="x_nyk_nbse_time_ca_nbse_user_profile" related_list="NULL" sys_domain="global" view="Default view">f9d00d55db8f48101a9df77c299619e8</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>x_nyk_nbse_time_ca_nbse_timesheet.resource</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>MANUJAG</sys_created_by>
+            <sys_created_on>2020-02-17 16:02:31</sys_created_on>
+            <sys_id>3dd00d55db8f48101a9df77c299619eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>MANUJAG</sys_updated_by>
+            <sys_updated_on>2020-02-17 16:02:31</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>NBSE User Profile - Default view</calculated_name>
+            <filter/>
+            <name>x_nyk_nbse_time_ca_nbse_user_profile</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>MANUJAG</sys_created_by>
+            <sys_created_on>2020-02-17 16:02:31</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f9d00d55db8f48101a9df77c299619e8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>NBSE User Profile - Default view</sys_name>
+            <sys_package display_value="NBSE Time Card" source="x_nyk_nbse_time_ca">00e16545dbf604901a9df77c2996198a</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="NBSE Time Card">00e16545dbf604901a9df77c2996198a</sys_scope>
+            <sys_update_name>sys_ui_related_x_nyk_nbse_time_ca_nbse_user_profile_null</sys_update_name>
+            <sys_updated_by>MANUJAG</sys_updated_by>
+            <sys_updated_on>2020-02-17 16:02:31</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config">
+    <ua_table_licensing_config action="DELETE">
+        <is_fulfillment>false</is_fulfillment>
+        <license_condition/>
+        <license_model>none</license_model>
+        <license_roles/>
+        <name>u_imp_tmpl_x_nyk_nbse_time_ca_nbse_holidays</name>
+        <op_delete>true</op_delete>
+        <op_insert>true</op_insert>
+        <op_update>true</op_update>
+        <owner_condition/>
+        <sys_class_name>ua_table_licensing_config</sys_class_name>
+        <sys_created_by>MANUJAG</sys_created_by>
+        <sys_created_on>2020-02-06 14:12:12</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e61eb765dbfe84901a9df77c299619bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_imp_tmpl_x_nyk_nbse_time_ca_nbse_holidays</sys_name>
+        <sys_package display_value="NBSE Time Card" source="x_nyk_nbse_time_ca">00e16545dbf604901a9df77c2996198a</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NBSE Time Card">00e16545dbf604901a9df77c2996198a</sys_scope>
+        <sys_update_name>ua_table_licensing_config_e61eb765dbfe84901a9df77c299619bd</sys_update_name>
+        <sys_updated_by>MANUJAG</sys_updated_by>
+        <sys_updated_on>2020-02-06 14:12:12</sys_updated_on>
+    </ua_table_licensing_config>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NBSE Time Card">00e16545dbf604901a9df77c2996198a</application>
+        <comments/>
+        <file_path/>
+        <instance_id>b2d7f7b5ffb920006663762fa87efedd</instance_id>
+        <instance_name>nbsadev</instance_name>
+        <name>ua_table_licensing_config_e61eb765dbfe84901a9df77c299619bd</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config"><ua_table_licensing_config action="INSERT_OR_UPDATE"><is_fulfillment>false</is_fulfillment><license_condition/><license_model>none</license_model><license_roles/><name>u_imp_tmpl_x_nyk_nbse_time_ca_nbse_holidays</name><op_delete>true</op_delete><op_insert>true</op_insert><op_update>true</op_update><owner_condition/><sys_class_name>ua_table_licensing_config</sys_class_name><sys_created_by>MANUJAG</sys_created_by><sys_created_on>2020-02-06 14:12:12</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>e61eb765dbfe84901a9df77c299619bd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_imp_tmpl_x_nyk_nbse_time_ca_nbse_holidays</sys_name><sys_package display_value="NBSE Time Card" source="x_nyk_nbse_time_ca">00e16545dbf604901a9df77c2996198a</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="NBSE Time Card">00e16545dbf604901a9df77c2996198a</sys_scope><sys_update_name>ua_table_licensing_config_e61eb765dbfe84901a9df77c299619bd</sys_update_name><sys_updated_by>MANUJAG</sys_updated_by><sys_updated_on>2020-02-06 14:12:12</sys_updated_on></ua_table_licensing_config></record_update>]]></payload>
+        <payload_hash>910118775</payload_hash>
+        <record_name>u_imp_tmpl_x_nyk_nbse_time_ca_nbse_holidays</record_name>
+        <reverted_from/>
+        <source>0ce16545dbf604901a9df77c2996198c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>MANUJAG</sys_created_by>
+        <sys_created_on>2020-02-06 14:12:12</sys_created_on>
+        <sys_id>7e1eb765dbfe84901a9df77c299619bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1701ad812170000001</sys_recorded_at>
+        <sys_updated_by>MANUJAG</sys_updated_by>
+        <sys_updated_on>2020-02-06 14:12:12</sys_updated_on>
+        <type>Table Subscription Configuration</type>
+        <update_guid>761eb7657bfe8490198756d3948e20bf</update_guid>
+        <update_guid_history>761eb7657bfe8490198756d3948e20bf:910118775</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>GARGL</sys_created_by>
+        <sys_created_on>2020-02-24 09:42:55</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="ua_table_licensing_config">ua_table_licensing_config</sys_db_object>
+        <sys_id>971a99eb80604d718037d4f03c790059</sys_id>
+        <sys_metadata>e61eb765dbfe84901a9df77c299619bd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_imp_tmpl_x_nyk_nbse_time_ca_nbse_holidays</sys_name>
+        <sys_package display_value="NBSE Time Card" source="x_nyk_nbse_time_ca">00e16545dbf604901a9df77c2996198a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NBSE Time Card">00e16545dbf604901a9df77c2996198a</sys_scope>
+        <sys_scope_delete display_value="">794c9e7989a8442480c4438e5a152c49</sys_scope_delete>
+        <sys_update_name>ua_table_licensing_config_e61eb765dbfe84901a9df77c299619bd</sys_update_name>
+        <sys_update_version display_value="ua_table_licensing_config_e61eb765dbfe84901a9df77c299619bd">7e1eb765dbfe84901a9df77c299619bf</sys_update_version>
+        <sys_updated_by>GARGL</sys_updated_by>
+        <sys_updated_on>2020-02-24 09:42:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

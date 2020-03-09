@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Nbse Time Ca M2m Nbse Projec Nbse Project" max_length="40" name="x_nyk_nbse_time_ca_m2m_nbse_projec_nbse_project" type="collection">
+        <element attributes="encode_utf8=false" label="NBSE Projects" max_length="32" name="projects" reference="x_nyk_nbse_time_ca_nbse_projects" type="reference"/>
+        <element attributes="encode_utf8=false" label="NBSE Project Work Type" max_length="32" name="project_work_type" reference="x_nyk_nbse_time_ca_nbse_project_work_type" type="reference"/>
+        <index name="index">
+            <element name="projects"/>
+        </index>
+        <index name="index2">
+            <element name="project_work_type"/>
+        </index>
+    </element>
+</database>

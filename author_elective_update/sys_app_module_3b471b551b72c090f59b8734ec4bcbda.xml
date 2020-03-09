@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="NBSA Time Card">156e45cc0f4332001416d23be1050ea0</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>NBSE Bill Rates</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_nyk_nbse_time_ca_nbse_bill_rate</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_nyk_nbse_time_ca.nbse_bill_rate_user</roles>
+        <survey/>
+        <survey_overwrite>true</survey_overwrite>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>MANUJAG</sys_created_by>
+        <sys_created_on>2020-02-05 16:44:13</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path/>
+        <sys_id>3b471b551b72c090f59b8734ec4bcbda</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NBSE Bill Rates</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NBSE Time Card" source="x_nyk_nbse_time_ca">00e16545dbf604901a9df77c2996198a</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NBSE Time Card">00e16545dbf604901a9df77c2996198a</sys_scope>
+        <sys_update_name>sys_app_module_3b471b551b72c090f59b8734ec4bcbda</sys_update_name>
+        <sys_updated_by>MANUJAG</sys_updated_by>
+        <sys_updated_on>2020-02-05 16:44:13</sys_updated_on>
+        <timeline_page/>
+        <title>NBSE Bill Rates</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NBSE Time Card">00e16545dbf604901a9df77c2996198a</application>
+        <comments/>
+        <file_path/>
+        <instance_id>b2d7f7b5ffb920006663762fa87efedd</instance_id>
+        <instance_name>nbsadev</instance_name>
+        <name>sys_app_module_3b471b551b72c090f59b8734ec4bcbda</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="NBSA Time Card">156e45cc0f4332001416d23be1050ea0</application><assessment/><content_page/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>NBSE Bill Rates</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_nyk_nbse_time_ca_nbse_bill_rate</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles>x_nyk_nbse_time_ca.nbse_bill_rate_user</roles><survey/><survey_overwrite>true</survey_overwrite><sys_class_name>sys_app_module</sys_class_name><sys_created_by>MANUJAG</sys_created_by><sys_created_on>2020-02-05 16:44:13</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_domain_path/><sys_id>3b471b551b72c090f59b8734ec4bcbda</sys_id><sys_mod_count>0</sys_mod_count><sys_name>NBSE Bill Rates</sys_name><sys_overrides/><sys_package display_value="NBSE Time Card" source="x_nyk_nbse_time_ca">00e16545dbf604901a9df77c2996198a</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="NBSE Time Card">00e16545dbf604901a9df77c2996198a</sys_scope><sys_update_name>sys_app_module_3b471b551b72c090f59b8734ec4bcbda</sys_update_name><sys_updated_by>MANUJAG</sys_updated_by><sys_updated_on>2020-02-05 16:44:13</sys_updated_on><timeline_page/><title>NBSE Bill Rates</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>1885352796</payload_hash>
+        <record_name>NBSE Bill Rates</record_name>
+        <reverted_from/>
+        <source>0ce16545dbf604901a9df77c2996198c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>MANUJAG</sys_created_by>
+        <sys_created_on>2020-02-05 16:44:13</sys_created_on>
+        <sys_id>3f471b551b72c090f59b8734ec4bcbdd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170163ce29a0000001</sys_recorded_at>
+        <sys_updated_by>MANUJAG</sys_updated_by>
+        <sys_updated_on>2020-02-05 16:44:13</sys_updated_on>
+        <type>Module</type>
+        <update_guid>37471b559372c09005f1e5cff0a96cdd</update_guid>
+        <update_guid_history>37471b559372c09005f1e5cff0a96cdd:1885352796</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 02-05-2020 11:47:02">c9f717951b72c090f59b8734ec4bcbe4</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>MANUJAG</sys_created_by>
+        <sys_created_on>2020-02-05 16:47:02</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>05ad5c6c152740a88bf289fe59e3e884</sys_id>
+        <sys_metadata>3b471b551b72c090f59b8734ec4bcbda</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NBSE Bill Rates</sys_name>
+        <sys_package display_value="NBSE Time Card" source="x_nyk_nbse_time_ca">00e16545dbf604901a9df77c2996198a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NBSE Time Card">00e16545dbf604901a9df77c2996198a</sys_scope>
+        <sys_scope_delete display_value="">794c9e7989a8442480c4438e5a152c49</sys_scope_delete>
+        <sys_update_name>sys_app_module_3b471b551b72c090f59b8734ec4bcbda</sys_update_name>
+        <sys_update_version display_value="sys_app_module_3b471b551b72c090f59b8734ec4bcbda">3f471b551b72c090f59b8734ec4bcbdd</sys_update_version>
+        <sys_updated_by>MANUJAG</sys_updated_by>
+        <sys_updated_on>2020-02-05 16:47:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

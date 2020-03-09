@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="15b844c7dbfe00101a9df77c29961980" sys_domain="global" table="x_nyk_nbse_time_ca_nbse_assignment" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>GARGL</sys_created_by>
+            <sys_created_on>2020-02-24 09:56:12</sys_created_on>
+            <sys_id>3310b357db8780501a9df77c29961900</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nyk_nbse_time_ca_nbse_assignment" sys_domain="global" view="Default view">15b844c7dbfe00101a9df77c29961980</sys_ui_section>
+            <sys_updated_by>GARGL</sys_updated_by>
+            <sys_updated_on>2020-02-24 09:56:12</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>project</element>
+            <position>1</position>
+            <sys_created_by>GARGL</sys_created_by>
+            <sys_created_on>2020-02-24 09:56:12</sys_created_on>
+            <sys_id>b310b357db8780501a9df77c29961900</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nyk_nbse_time_ca_nbse_assignment" sys_domain="global" view="Default view">15b844c7dbfe00101a9df77c29961980</sys_ui_section>
+            <sys_updated_by>GARGL</sys_updated_by>
+            <sys_updated_on>2020-02-24 09:56:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>project_work_type</element>
+            <position>2</position>
+            <sys_created_by>GARGL</sys_created_by>
+            <sys_created_on>2020-02-24 09:56:12</sys_created_on>
+            <sys_id>3710b357db8780501a9df77c29961900</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nyk_nbse_time_ca_nbse_assignment" sys_domain="global" view="Default view">15b844c7dbfe00101a9df77c29961980</sys_ui_section>
+            <sys_updated_by>GARGL</sys_updated_by>
+            <sys_updated_on>2020-02-24 09:56:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ticket</element>
+            <position>3</position>
+            <sys_created_by>GARGL</sys_created_by>
+            <sys_created_on>2020-02-24 09:56:12</sys_created_on>
+            <sys_id>b710b357db8780501a9df77c29961900</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nyk_nbse_time_ca_nbse_assignment" sys_domain="global" view="Default view">15b844c7dbfe00101a9df77c29961980</sys_ui_section>
+            <sys_updated_by>GARGL</sys_updated_by>
+            <sys_updated_on>2020-02-24 09:56:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>mon</element>
+            <position>4</position>
+            <sys_created_by>GARGL</sys_created_by>
+            <sys_created_on>2020-02-24 09:56:12</sys_created_on>
+            <sys_id>3b10b357db8780501a9df77c29961900</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nyk_nbse_time_ca_nbse_assignment" sys_domain="global" view="Default view">15b844c7dbfe00101a9df77c29961980</sys_ui_section>
+            <sys_updated_by>GARGL</sys_updated_by>
+            <sys_updated_on>2020-02-24 09:56:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>tue</element>
+            <position>5</position>
+            <sys_created_by>GARGL</sys_created_by>
+            <sys_created_on>2020-02-24 09:56:12</sys_created_on>
+            <sys_id>bb10b357db8780501a9df77c29961900</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nyk_nbse_time_ca_nbse_assignment" sys_domain="global" view="Default view">15b844c7dbfe00101a9df77c29961980</sys_ui_section>
+            <sys_updated_by>GARGL</sys_updated_by>
+            <sys_updated_on>2020-02-24 09:56:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>wed</element>
+            <position>6</position>
+            <sys_created_by>GARGL</sys_created_by>
+            <sys_created_on>2020-02-24 09:56:12</sys_created_on>
+            <sys_id>3f10b357db8780501a9df77c29961900</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nyk_nbse_time_ca_nbse_assignment" sys_domain="global" view="Default view">15b844c7dbfe00101a9df77c29961980</sys_ui_section>
+            <sys_updated_by>GARGL</sys_updated_by>
+            <sys_updated_on>2020-02-24 09:56:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>thu</element>
+            <position>7</position>
+            <sys_created_by>GARGL</sys_created_by>
+            <sys_created_on>2020-02-24 09:56:12</sys_created_on>
+            <sys_id>bf10b357db8780501a9df77c29961900</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nyk_nbse_time_ca_nbse_assignment" sys_domain="global" view="Default view">15b844c7dbfe00101a9df77c29961980</sys_ui_section>
+            <sys_updated_by>GARGL</sys_updated_by>
+            <sys_updated_on>2020-02-24 09:56:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>fri</element>
+            <position>8</position>
+            <sys_created_by>GARGL</sys_created_by>
+            <sys_created_on>2020-02-24 09:56:12</sys_created_on>
+            <sys_id>3310b357db8780501a9df77c29961901</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nyk_nbse_time_ca_nbse_assignment" sys_domain="global" view="Default view">15b844c7dbfe00101a9df77c29961980</sys_ui_section>
+            <sys_updated_by>GARGL</sys_updated_by>
+            <sys_updated_on>2020-02-24 09:56:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>9</position>
+            <sys_created_by>GARGL</sys_created_by>
+            <sys_created_on>2020-02-24 09:56:12</sys_created_on>
+            <sys_id>b310b357db8780501a9df77c29961901</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nyk_nbse_time_ca_nbse_assignment" sys_domain="global" view="Default view">15b844c7dbfe00101a9df77c29961980</sys_ui_section>
+            <sys_updated_by>GARGL</sys_updated_by>
+            <sys_updated_on>2020-02-24 09:56:12</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>timesheet</element>
+            <position>10</position>
+            <sys_created_by>GARGL</sys_created_by>
+            <sys_created_on>2020-02-24 09:56:12</sys_created_on>
+            <sys_id>3710b357db8780501a9df77c29961901</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nyk_nbse_time_ca_nbse_assignment" sys_domain="global" view="Default view">15b844c7dbfe00101a9df77c29961980</sys_ui_section>
+            <sys_updated_by>GARGL</sys_updated_by>
+            <sys_updated_on>2020-02-24 09:56:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sat</element>
+            <position>11</position>
+            <sys_created_by>GARGL</sys_created_by>
+            <sys_created_on>2020-02-24 09:56:12</sys_created_on>
+            <sys_id>b710b357db8780501a9df77c29961901</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nyk_nbse_time_ca_nbse_assignment" sys_domain="global" view="Default view">15b844c7dbfe00101a9df77c29961980</sys_ui_section>
+            <sys_updated_by>GARGL</sys_updated_by>
+            <sys_updated_on>2020-02-24 09:56:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sun</element>
+            <position>12</position>
+            <sys_created_by>GARGL</sys_created_by>
+            <sys_created_on>2020-02-24 09:56:12</sys_created_on>
+            <sys_id>3b10b357db8780501a9df77c29961901</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nyk_nbse_time_ca_nbse_assignment" sys_domain="global" view="Default view">15b844c7dbfe00101a9df77c29961980</sys_ui_section>
+            <sys_updated_by>GARGL</sys_updated_by>
+            <sys_updated_on>2020-02-24 09:56:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>total_hrs</element>
+            <position>13</position>
+            <sys_created_by>GARGL</sys_created_by>
+            <sys_created_on>2020-02-24 09:56:12</sys_created_on>
+            <sys_id>bb10b357db8780501a9df77c29961901</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nyk_nbse_time_ca_nbse_assignment" sys_domain="global" view="Default view">15b844c7dbfe00101a9df77c29961980</sys_ui_section>
+            <sys_updated_by>GARGL</sys_updated_by>
+            <sys_updated_on>2020-02-24 09:56:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>14</position>
+            <sys_created_by>GARGL</sys_created_by>
+            <sys_created_on>2020-02-24 09:56:12</sys_created_on>
+            <sys_id>3f10b357db8780501a9df77c29961901</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nyk_nbse_time_ca_nbse_assignment" sys_domain="global" view="Default view">15b844c7dbfe00101a9df77c29961980</sys_ui_section>
+            <sys_updated_by>GARGL</sys_updated_by>
+            <sys_updated_on>2020-02-24 09:56:12</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_nyk_nbse_time_ca_nbse_assignment</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>MANUJAG</sys_created_by>
+            <sys_created_on>2020-02-10 12:10:57</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>15b844c7dbfe00101a9df77c29961980</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_nyk_nbse_time_ca_nbse_assignment</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="NBSE Time Card" source="x_nyk_nbse_time_ca">00e16545dbf604901a9df77c2996198a</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="NBSE Time Card">00e16545dbf604901a9df77c2996198a</sys_scope>
+            <sys_update_name>sys_ui_section_15b844c7dbfe00101a9df77c29961980</sys_update_name>
+            <sys_updated_by>MANUJAG</sys_updated_by>
+            <sys_updated_on>2020-02-10 12:10:57</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
