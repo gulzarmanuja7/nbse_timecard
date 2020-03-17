@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="NBSE Projects" max_length="40" name="x_nyk_nbse_time_ca_nbse_projects" type="collection">
-        <element attributes="encode_utf8=false" label="Affiliated Company" max_length="32" name="affiliated_company" reference="core_company" type="reference"/>
+        <element attributes="encode_utf8=false" label="Beneficiary" max_length="32" name="affiliated_company" reference="core_company" type="reference"/>
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Contributors" max_length="1024" name="contributors" reference="sys_user" type="glide_list"/>
         <element attributes="edge_encryption_enabled=true" label="Description" max_length="1000" name="description" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="End" max_length="40" name="end" type="glide_date"/>
@@ -11,9 +11,11 @@
         <element attributes="edge_encryption_enabled=true" label="Start" max_length="40" name="start" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="Active" label="State" max_length="40" name="state" type="string">
             <choice>
-                <element inactive_on_update="false" label="Active" sequence="0" value="Active"/>
-                <element inactive_on_update="false" label="Completed" sequence="1" value="Completed"/>
-                <element inactive_on_update="false" label="Delayed" sequence="2" value="Delayed"/>
+                <element inactive="true" inactive_on_update="true" label="Delayed" sequence="0" value="Delayed"/>
+                <element inactive_on_update="false" label="Pipeline" sequence="0" value="Pipeline"/>
+                <element inactive_on_update="false" label="Active" sequence="1" value="Active"/>
+                <element inactive_on_update="false" label="On Hold" sequence="2" value="On Hold"/>
+                <element inactive_on_update="false" label="Completed" sequence="3" value="Completed"/>
             </choice>
         </element>
         <index name="index">

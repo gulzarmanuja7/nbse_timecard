@@ -4,8 +4,8 @@
             <dependent_value/>
             <element>state</element>
             <hint/>
-            <inactive>false</inactive>
-            <label>Active</label>
+            <inactive>true</inactive>
+            <label>Delayed</label>
             <language>en</language>
             <name>x_nyk_nbse_time_ca_nbse_projects</name>
             <sequence>0</sequence>
@@ -13,11 +13,68 @@
             <sys_created_on>2020-02-05 18:26:06</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>c8aee39d1bb2c090f59b8734ec4bcb64</sys_id>
+            <sys_id>4caee39d1bb2c090f59b8734ec4bcb66</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>MANUJAG</sys_updated_by>
+            <sys_updated_on>2020-03-17 13:23:48</sys_updated_on>
+            <value>Delayed</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pipeline</label>
+            <language>en</language>
+            <name>x_nyk_nbse_time_ca_nbse_projects</name>
+            <sequence>0</sequence>
+            <sys_created_by>MANUJAG</sys_created_by>
+            <sys_created_on>2020-03-17 13:23:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3792f1ea1bab4010f59b8734ec4bcb33</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>MANUJAG</sys_updated_by>
-            <sys_updated_on>2020-02-05 18:26:06</sys_updated_on>
+            <sys_updated_on>2020-03-17 13:23:48</sys_updated_on>
+            <value>Pipeline</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Active</label>
+            <language>en</language>
+            <name>x_nyk_nbse_time_ca_nbse_projects</name>
+            <sequence>1</sequence>
+            <sys_created_by>MANUJAG</sys_created_by>
+            <sys_created_on>2020-02-05 18:26:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c8aee39d1bb2c090f59b8734ec4bcb64</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>MANUJAG</sys_updated_by>
+            <sys_updated_on>2020-03-17 13:23:48</sys_updated_on>
             <value>Active</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>On Hold</label>
+            <language>en</language>
+            <name>x_nyk_nbse_time_ca_nbse_projects</name>
+            <sequence>2</sequence>
+            <sys_created_by>MANUJAG</sys_created_by>
+            <sys_created_on>2020-03-17 13:23:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f792f1ea1bab4010f59b8734ec4bcb35</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>MANUJAG</sys_updated_by>
+            <sys_updated_on>2020-03-17 13:23:48</sys_updated_on>
+            <value>On Hold</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -27,35 +84,16 @@
             <label>Completed</label>
             <language>en</language>
             <name>x_nyk_nbse_time_ca_nbse_projects</name>
-            <sequence>1</sequence>
+            <sequence>3</sequence>
             <sys_created_by>MANUJAG</sys_created_by>
             <sys_created_on>2020-02-05 18:26:06</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>8caee39d1bb2c090f59b8734ec4bcb65</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>MANUJAG</sys_updated_by>
-            <sys_updated_on>2020-02-05 18:26:06</sys_updated_on>
+            <sys_updated_on>2020-03-17 13:23:48</sys_updated_on>
             <value>Completed</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>state</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Delayed</label>
-            <language>en</language>
-            <name>x_nyk_nbse_time_ca_nbse_projects</name>
-            <sequence>2</sequence>
-            <sys_created_by>MANUJAG</sys_created_by>
-            <sys_created_on>2020-02-05 18:26:06</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>4caee39d1bb2c090f59b8734ec4bcb66</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>MANUJAG</sys_updated_by>
-            <sys_updated_on>2020-02-05 18:26:06</sys_updated_on>
-            <value>Delayed</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
             <element>state</element>
