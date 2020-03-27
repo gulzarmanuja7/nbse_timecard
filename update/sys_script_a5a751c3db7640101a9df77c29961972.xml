@@ -45,10 +45,11 @@
 	gr.addQuery('sys_id!='+current.sys_id);
 	gr.addQuery('project', current.project);
 	gr.addQuery('project_work_type', current.project_work_type);
+	gr.addQuery('ticket', current.ticket);
 	gr.query();
 	gr.next();
 	if (gr.getRowCount() != 0) {
-		gs.addErrorMessage('An assignment already exists for this project and project work type for this timesheet. It needs to be unique.');
+		gs.addErrorMessage('An assignment already exists for this project, project work type and ticket# for this timesheet. It needs to be unique.');
 		current.setAbortAction(true);
 	}
 	
@@ -60,7 +61,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a5a751c3db7640101a9df77c29961972</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Validate Unique Project and Work Type</sys_name>
         <sys_overrides/>
         <sys_package display_value="NBSE Time Card" source="x_nyk_nbse_time_ca">00e16545dbf604901a9df77c2996198a</sys_package>
@@ -68,8 +69,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="NBSE Time Card">00e16545dbf604901a9df77c2996198a</sys_scope>
         <sys_update_name>sys_script_a5a751c3db7640101a9df77c29961972</sys_update_name>
-        <sys_updated_by>GARGL</sys_updated_by>
-        <sys_updated_on>2020-03-06 12:58:17</sys_updated_on>
+        <sys_updated_by>MANUJAG</sys_updated_by>
+        <sys_updated_on>2020-03-26 13:03:46</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
