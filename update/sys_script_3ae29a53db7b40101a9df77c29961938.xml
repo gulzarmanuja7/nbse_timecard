@@ -3,7 +3,7 @@
         <abort_action>false</abort_action>
         <access>package_private</access>
         <action_delete>false</action_delete>
-        <action_insert>true</action_insert>
+        <action_insert>false</action_insert>
         <action_label/>
         <action_name/>
         <action_query>false</action_query>
@@ -15,14 +15,14 @@
         <application/>
         <change_fields>false</change_fields>
         <client_callable>false</client_callable>
-        <collection>x_nyk_nbse_time_ca_nbse_assignment</collection>
+        <collection>sys_user</collection>
         <condition/>
         <description/>
         <execute_function>false</execute_function>
         <filter_condition/>
         <is_rest>false</is_rest>
         <message/>
-        <name>Validate Day Hours</name>
+        <name>Sync User Profile in NBSE TimeCard</name>
         <onclick/>
         <order>100</order>
         <priority>100</priority>
@@ -34,45 +34,49 @@
         <rest_variables/>
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	var fields = [
+		{source: 'first_name', target: 'first_name'},
+		{source: 'middle_name', target: 'middle_name'},
+		{source: 'last_name', target: 'last_name'},
+		{source: 'name', target: 'name'},
+		{source: 'manager', target: 'manager'},
+		{source: 'email', target: 'email_address'},
+		{source: 'company', target: 'company'},
+		{source: 'location', target: 'location'},
+		{source: 'department', target: 'department'},
+		{source: 'title', target: 'title'},
+		{source: 'u_vendor', target: 'vendor'},
+	];
 	
-	//var PROP_PROJECT_MIN_HOURS      = gs.getProperty('x_nyk_nbse_time_ca.project_min_hours') || 0.5;
-	//var PROP_PROJECT_INTERVAL_HOURS = gs.getProperty('x_nyk_nbse_time_ca.project_interval_hours') || 0.25;
-	var MIN = current.project_work_type.minimum_hours || 0.25;
-	var MAX = current.project_work_type.maximum_hours || 24;
-	var INTERVAL = current.project_work_type.interval || 0.25;
-	var week = ['mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun'];
-	var hrs;
-	for (var w in week) {
-		hrs = parseFloat(current.getValue(week[w]) || 0);
-		if (hrs == 0)
-			continue;
-		if (hrs == undefined || hrs < MIN || hrs > MAX) {
-			gs.addErrorMessage('"'+week[w]+'" must contain a valid day hour value between '+MIN+' and '+MAX+' but it contains '+hrs);
-			current.setAbortAction(true);
-		} else if (hrs%INTERVAL != 0) {
-			gs.addErrorMessage('Time entry against '+current.project_work_type.project_work_type+'  must be done by '+INTERVAL+' hours, for day '+week[w]);
-			current.setAbortAction(true);
-		}
+	var gr = new GlideRecord('x_nyk_nbse_time_ca_nbse_user_profile');
+	gr.addEncodedQuery('user='+current.getUniqueValue()+'^profile_status!=Terminated');
+	gr.query();
+	if (gr.next()) {
+		for (var s in fields)
+			gr.setValue(fields[s].target, current.getValue(fields[s].source) || '');
+		gr.update();
 	}
+
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>MANUJAG</sys_created_by>
-        <sys_created_on>2020-02-10 17:55:07</sys_created_on>
+        <sys_created_on>2020-04-01 10:10:14</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>3b52194fdb3640101a9df77c299619c3</sys_id>
-        <sys_mod_count>11</sys_mod_count>
-        <sys_name>Validate Day Hours</sys_name>
+        <sys_id>3ae29a53db7b40101a9df77c29961938</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Sync User Profile in NBSE TimeCard</sys_name>
         <sys_overrides/>
         <sys_package display_value="NBSE Time Card" source="x_nyk_nbse_time_ca">00e16545dbf604901a9df77c2996198a</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="NBSE Time Card">00e16545dbf604901a9df77c2996198a</sys_scope>
-        <sys_update_name>sys_script_3b52194fdb3640101a9df77c299619c3</sys_update_name>
+        <sys_update_name>sys_script_3ae29a53db7b40101a9df77c29961938</sys_update_name>
         <sys_updated_by>MANUJAG</sys_updated_by>
-        <sys_updated_on>2020-04-01 10:31:42</sys_updated_on>
+        <sys_updated_on>2020-04-01 10:45:16</sys_updated_on>
         <template/>
-        <when>before</when>
+        <when>after</when>
     </sys_script>
 </record_update>
