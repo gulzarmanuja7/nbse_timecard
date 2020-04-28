@@ -66,7 +66,7 @@
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_nyk_nbse_time_ca_nbse_assignment</sys_name>
         <sys_package display_value="NBSE Time Card" source="x_nyk_nbse_time_ca">00e16545dbf604901a9df77c2996198a</sys_package>
-        <sys_parent display_value="x_nyk_nbse_time_ca_nbse_assignment">0f574cc7dbfe00101a9df77c2996191c</sys_parent>
+        <sys_parent display_value="">0f574cc7dbfe00101a9df77c2996191c</sys_parent>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="NBSE Time Card">00e16545dbf604901a9df77c2996198a</sys_scope>

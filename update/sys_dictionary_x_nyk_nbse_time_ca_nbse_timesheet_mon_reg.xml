@@ -54,7 +54,7 @@
         <sys_created_by>MANUJAG</sys_created_by>
         <sys_created_on>2020-02-13 14:19:21</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>6c72808cdb8f04101a9df77c299619fb</sys_id>
+        <sys_id>80f0e0fedb3f4c10be65fba9bf96190f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Mon Reg</sys_name>
         <sys_package display_value="NBSE Time Card" source="x_nyk_nbse_time_ca">00e16545dbf604901a9df77c2996198a</sys_package>
@@ -63,7 +63,7 @@
         <sys_scope display_value="NBSE Time Card">00e16545dbf604901a9df77c2996198a</sys_scope>
         <sys_update_name>sys_dictionary_x_nyk_nbse_time_ca_nbse_timesheet_mon_reg</sys_update_name>
         <sys_updated_by>MANUJAG</sys_updated_by>
-        <sys_updated_on>2020-02-13 14:19:21</sys_updated_on>
+        <sys_updated_on>2020-04-01 15:34:48</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

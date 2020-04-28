@@ -46,7 +46,7 @@
         <update_guid_history>aa5132a70336c010d6d03289d0c25a29:-868958452</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Record deleted 02-20-2020 11:58:54">818aa09adb4f4c101a9df77c299619b7</sys_audit_delete>
+        <sys_audit_delete display_value="">818aa09adb4f4c101a9df77c299619b7</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>MANUJAG</sys_created_by>
         <sys_created_on>2020-02-20 16:58:54</sys_created_on>

@@ -56,7 +56,7 @@
         <sys_scope display_value="NBSE Time Card">00e16545dbf604901a9df77c2996198a</sys_scope>
         <sys_update_name>sys_script_88432abcdb9fc4501a9df77c299619f8</sys_update_name>
         <sys_updated_by>MANUJAG</sys_updated_by>
-        <sys_updated_on>2020-03-31 19:13:47</sys_updated_on>
+        <sys_updated_on>2020-03-31 19:10:51</sys_updated_on>
         <template>minimum_hours=0.25^maximum_hours=24^interval=0.25^EQ</template>
         <when>before</when>
     </sys_script>

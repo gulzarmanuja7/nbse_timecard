@@ -51,7 +51,9 @@
             </choice>
         </element>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" choice_field="working_days_for_pte" label="Working Days for PTE" max_length="4000" name="working_days_for_pte" read_only="true" type="glide_list">
-            <choice/>
+            <choice>
+                <element inactive_on_update="false" label="sat" sequence="5" value="sat"/>
+            </choice>
         </element>
         <index name="index">
             <element name="timesheet_approver"/>

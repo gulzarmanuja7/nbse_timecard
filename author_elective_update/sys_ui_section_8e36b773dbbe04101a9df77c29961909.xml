@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="" section_id="8e36b773dbbe04101a9df77c29961909" sys_domain="573bb46b136e22007864bb722244b0dd" table="x_nyk_nbse_time_ca_nbse_timesheet" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>process_flow.xml</element>
+            <position>0</position>
+            <sys_created_by>MANUJAG</sys_created_by>
+            <sys_created_on>2020-02-13 13:24:06</sys_created_on>
+            <sys_id>0e36b773dbbe04101a9df77c29961914</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Process Flow">8c176b551bb2c090f59b8734ec4bcb92</sys_ui_formatter>
+            <sys_ui_section caption="NULL" display_value="" name="x_nyk_nbse_time_ca_nbse_timesheet" sys_domain="573bb46b136e22007864bb722244b0dd" view="Default view">8e36b773dbbe04101a9df77c29961909</sys_ui_section>
+            <sys_updated_by>MANUJAG</sys_updated_by>
+            <sys_updated_on>2020-02-13 13:24:06</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>resource</element>
+            <position>1</position>
+            <sys_created_by>MANUJAG</sys_created_by>
+            <sys_created_on>2020-02-13 13:24:06</sys_created_on>
+            <sys_id>8a36b773dbbe04101a9df77c29961915</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nyk_nbse_time_ca_nbse_timesheet" sys_domain="573bb46b136e22007864bb722244b0dd" view="Default view">8e36b773dbbe04101a9df77c29961909</sys_ui_section>
+            <sys_updated_by>MANUJAG</sys_updated_by>
+            <sys_updated_on>2020-02-13 13:24:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>week_start</element>
+            <position>2</position>
+            <sys_created_by>MANUJAG</sys_created_by>
+            <sys_created_on>2020-02-13 13:24:06</sys_created_on>
+            <sys_id>0e36b773dbbe04101a9df77c29961915</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nyk_nbse_time_ca_nbse_timesheet" sys_domain="573bb46b136e22007864bb722244b0dd" view="Default view">8e36b773dbbe04101a9df77c29961909</sys_ui_section>
+            <sys_updated_by>MANUJAG</sys_updated_by>
+            <sys_updated_on>2020-02-13 13:24:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>resource_type</element>
+            <position>3</position>
+            <sys_created_by>MANUJAG</sys_created_by>
+            <sys_created_on>2020-02-13 13:24:06</sys_created_on>
+            <sys_id>8e36b773dbbe04101a9df77c29961915</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nyk_nbse_time_ca_nbse_timesheet" sys_domain="573bb46b136e22007864bb722244b0dd" view="Default view">8e36b773dbbe04101a9df77c29961909</sys_ui_section>
+            <sys_updated_by>MANUJAG</sys_updated_by>
+            <sys_updated_on>2020-02-13 13:24:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>timesheet_approver</element>
+            <position>4</position>
+            <sys_created_by>MANUJAG</sys_created_by>
+            <sys_created_on>2020-02-13 13:24:06</sys_created_on>
+            <sys_id>0236b773dbbe04101a9df77c29961916</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nyk_nbse_time_ca_nbse_timesheet" sys_domain="573bb46b136e22007864bb722244b0dd" view="Default view">8e36b773dbbe04101a9df77c29961909</sys_ui_section>
+            <sys_updated_by>MANUJAG</sys_updated_by>
+            <sys_updated_on>2020-02-13 13:24:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>manager</element>
+            <position>5</position>
+            <sys_created_by>MANUJAG</sys_created_by>
+            <sys_created_on>2020-02-13 13:24:06</sys_created_on>
+            <sys_id>8236b773dbbe04101a9df77c29961916</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nyk_nbse_time_ca_nbse_timesheet" sys_domain="573bb46b136e22007864bb722244b0dd" view="Default view">8e36b773dbbe04101a9df77c29961909</sys_ui_section>
+            <sys_updated_by>MANUJAG</sys_updated_by>
+            <sys_updated_on>2020-02-13 13:24:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>holidays</element>
+            <position>6</position>
+            <sys_created_by>MANUJAG</sys_created_by>
+            <sys_created_on>2020-02-13 13:24:06</sys_created_on>
+            <sys_id>0636b773dbbe04101a9df77c29961916</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nyk_nbse_time_ca_nbse_timesheet" sys_domain="573bb46b136e22007864bb722244b0dd" view="Default view">8e36b773dbbe04101a9df77c29961909</sys_ui_section>
+            <sys_updated_by>MANUJAG</sys_updated_by>
+            <sys_updated_on>2020-02-13 13:24:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>7</position>
+            <sys_created_by>MANUJAG</sys_created_by>
+            <sys_created_on>2020-02-13 13:24:06</sys_created_on>
+            <sys_id>8636b773dbbe04101a9df77c29961916</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nyk_nbse_time_ca_nbse_timesheet" sys_domain="573bb46b136e22007864bb722244b0dd" view="Default view">8e36b773dbbe04101a9df77c29961909</sys_ui_section>
+            <sys_updated_by>MANUJAG</sys_updated_by>
+            <sys_updated_on>2020-02-13 13:24:06</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>timesheet</element>
+            <position>8</position>
+            <sys_created_by>MANUJAG</sys_created_by>
+            <sys_created_on>2020-02-13 13:24:06</sys_created_on>
+            <sys_id>0a36b773dbbe04101a9df77c29961916</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nyk_nbse_time_ca_nbse_timesheet" sys_domain="573bb46b136e22007864bb722244b0dd" view="Default view">8e36b773dbbe04101a9df77c29961909</sys_ui_section>
+            <sys_updated_by>MANUJAG</sys_updated_by>
+            <sys_updated_on>2020-02-13 13:24:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>week_end</element>
+            <position>9</position>
+            <sys_created_by>MANUJAG</sys_created_by>
+            <sys_created_on>2020-02-13 13:24:06</sys_created_on>
+            <sys_id>8a36b773dbbe04101a9df77c29961916</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nyk_nbse_time_ca_nbse_timesheet" sys_domain="573bb46b136e22007864bb722244b0dd" view="Default view">8e36b773dbbe04101a9df77c29961909</sys_ui_section>
+            <sys_updated_by>MANUJAG</sys_updated_by>
+            <sys_updated_on>2020-02-13 13:24:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>10</position>
+            <sys_created_by>MANUJAG</sys_created_by>
+            <sys_created_on>2020-02-13 13:24:06</sys_created_on>
+            <sys_id>0e36b773dbbe04101a9df77c29961916</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nyk_nbse_time_ca_nbse_timesheet" sys_domain="573bb46b136e22007864bb722244b0dd" view="Default view">8e36b773dbbe04101a9df77c29961909</sys_ui_section>
+            <sys_updated_by>MANUJAG</sys_updated_by>
+            <sys_updated_on>2020-02-13 13:24:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>total_hrs</element>
+            <position>11</position>
+            <sys_created_by>MANUJAG</sys_created_by>
+            <sys_created_on>2020-02-13 13:24:06</sys_created_on>
+            <sys_id>8e36b773dbbe04101a9df77c29961916</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nyk_nbse_time_ca_nbse_timesheet" sys_domain="573bb46b136e22007864bb722244b0dd" view="Default view">8e36b773dbbe04101a9df77c29961909</sys_ui_section>
+            <sys_updated_by>MANUJAG</sys_updated_by>
+            <sys_updated_on>2020-02-13 13:24:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>working_days_for_pte</element>
+            <position>12</position>
+            <sys_created_by>MANUJAG</sys_created_by>
+            <sys_created_on>2020-02-13 13:24:06</sys_created_on>
+            <sys_id>0236b773dbbe04101a9df77c29961917</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_nyk_nbse_time_ca_nbse_timesheet" sys_domain="573bb46b136e22007864bb722244b0dd" view="Default view">8e36b773dbbe04101a9df77c29961909</sys_ui_section>
+            <sys_updated_by>MANUJAG</sys_updated_by>
+            <sys_updated_on>2020-02-13 13:24:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption/>
+            <header>false</header>
+            <name>x_nyk_nbse_time_ca_nbse_timesheet</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>MANUJAG</sys_created_by>
+            <sys_created_on>2020-02-13 13:24:06</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>573bb46b136e22007864bb722244b0dd</sys_domain>
+            <sys_domain_path>!!$/</sys_domain_path>
+            <sys_id>8e36b773dbbe04101a9df77c29961909</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_nyk_nbse_time_ca_nbse_timesheet</sys_name>
+            <sys_overrides caption="NULL" display_value="" name="x_nyk_nbse_time_ca_nbse_timesheet" sys_domain="global" view="Default view">ab63b949db3a04901a9df77c29961940</sys_overrides>
+            <sys_package display_value="NBSE Time Card" source="x_nyk_nbse_time_ca">00e16545dbf604901a9df77c2996198a</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="NBSE Time Card">00e16545dbf604901a9df77c2996198a</sys_scope>
+            <sys_update_name>sys_ui_section_8e36b773dbbe04101a9df77c29961909</sys_update_name>
+            <sys_updated_by>MANUJAG</sys_updated_by>
+            <sys_updated_on>2020-02-13 13:24:06</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NBSE Time Card">00e16545dbf604901a9df77c2996198a</application>
+        <comments/>
+        <file_path/>
+        <instance_id>b2d7f7b5ffb920006663762fa87efedd</instance_id>
+        <instance_name>nbsadev</instance_name>
+        <name>sys_ui_section_8e36b773dbbe04101a9df77c29961909</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="8e36b773dbbe04101a9df77c29961909" sys_domain="573bb46b136e22007864bb722244b0dd" table="x_nyk_nbse_time_ca_nbse_timesheet" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>process_flow.xml</element><position>0</position><sys_created_by>MANUJAG</sys_created_by><sys_created_on>2020-02-13 13:24:06</sys_created_on><sys_id>0e36b773dbbe04101a9df77c29961914</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter display_value="Process Flow">8c176b551bb2c090f59b8734ec4bcb92</sys_ui_formatter><sys_ui_section caption="NULL" display_value="" name="x_nyk_nbse_time_ca_nbse_timesheet" sys_domain="573bb46b136e22007864bb722244b0dd" view="Default view">8e36b773dbbe04101a9df77c29961909</sys_ui_section><sys_updated_by>MANUJAG</sys_updated_by><sys_updated_on>2020-02-13 13:24:06</sys_updated_on><sys_user/><type>formatter</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>resource</element><position>1</position><sys_created_by>MANUJAG</sys_created_by><sys_created_on>2020-02-13 13:24:06</sys_created_on><sys_id>8a36b773dbbe04101a9df77c29961915</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_nyk_nbse_time_ca_nbse_timesheet" sys_domain="573bb46b136e22007864bb722244b0dd" view="Default view">8e36b773dbbe04101a9df77c29961909</sys_ui_section><sys_updated_by>MANUJAG</sys_updated_by><sys_updated_on>2020-02-13 13:24:06</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>week_start</element><position>2</position><sys_created_by>MANUJAG</sys_created_by><sys_created_on>2020-02-13 13:24:06</sys_created_on><sys_id>0e36b773dbbe04101a9df77c29961915</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_nyk_nbse_time_ca_nbse_timesheet" sys_domain="573bb46b136e22007864bb722244b0dd" view="Default view">8e36b773dbbe04101a9df77c29961909</sys_ui_section><sys_updated_by>MANUJAG</sys_updated_by><sys_updated_on>2020-02-13 13:24:06</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>resource_type</element><position>3</position><sys_created_by>MANUJAG</sys_created_by><sys_created_on>2020-02-13 13:24:06</sys_created_on><sys_id>8e36b773dbbe04101a9df77c29961915</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_nyk_nbse_time_ca_nbse_timesheet" sys_domain="573bb46b136e22007864bb722244b0dd" view="Default view">8e36b773dbbe04101a9df77c29961909</sys_ui_section><sys_updated_by>MANUJAG</sys_updated_by><sys_updated_on>2020-02-13 13:24:06</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>timesheet_approver</element><position>4</position><sys_created_by>MANUJAG</sys_created_by><sys_created_on>2020-02-13 13:24:06</sys_created_on><sys_id>0236b773dbbe04101a9df77c29961916</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_nyk_nbse_time_ca_nbse_timesheet" sys_domain="573bb46b136e22007864bb722244b0dd" view="Default view">8e36b773dbbe04101a9df77c29961909</sys_ui_section><sys_updated_by>MANUJAG</sys_updated_by><sys_updated_on>2020-02-13 13:24:06</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>manager</element><position>5</position><sys_created_by>MANUJAG</sys_created_by><sys_created_on>2020-02-13 13:24:06</sys_created_on><sys_id>8236b773dbbe04101a9df77c29961916</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_nyk_nbse_time_ca_nbse_timesheet" sys_domain="573bb46b136e22007864bb722244b0dd" view="Default view">8e36b773dbbe04101a9df77c29961909</sys_ui_section><sys_updated_by>MANUJAG</sys_updated_by><sys_updated_on>2020-02-13 13:24:06</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>holidays</element><position>6</position><sys_created_by>MANUJAG</sys_created_by><sys_created_on>2020-02-13 13:24:06</sys_created_on><sys_id>0636b773dbbe04101a9df77c29961916</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_nyk_nbse_time_ca_nbse_timesheet" sys_domain="573bb46b136e22007864bb722244b0dd" view="Default view">8e36b773dbbe04101a9df77c29961909</sys_ui_section><sys_updated_by>MANUJAG</sys_updated_by><sys_updated_on>2020-02-13 13:24:06</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>7</position><sys_created_by>MANUJAG</sys_created_by><sys_created_on>2020-02-13 13:24:06</sys_created_on><sys_id>8636b773dbbe04101a9df77c29961916</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_nyk_nbse_time_ca_nbse_timesheet" sys_domain="573bb46b136e22007864bb722244b0dd" view="Default view">8e36b773dbbe04101a9df77c29961909</sys_ui_section><sys_updated_by>MANUJAG</sys_updated_by><sys_updated_on>2020-02-13 13:24:06</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>timesheet</element><position>8</position><sys_created_by>MANUJAG</sys_created_by><sys_created_on>2020-02-13 13:24:06</sys_created_on><sys_id>0a36b773dbbe04101a9df77c29961916</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_nyk_nbse_time_ca_nbse_timesheet" sys_domain="573bb46b136e22007864bb722244b0dd" view="Default view">8e36b773dbbe04101a9df77c29961909</sys_ui_section><sys_updated_by>MANUJAG</sys_updated_by><sys_updated_on>2020-02-13 13:24:06</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>week_end</element><position>9</position><sys_created_by>MANUJAG</sys_created_by><sys_created_on>2020-02-13 13:24:06</sys_created_on><sys_id>8a36b773dbbe04101a9df77c29961916</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_nyk_nbse_time_ca_nbse_timesheet" sys_domain="573bb46b136e22007864bb722244b0dd" view="Default view">8e36b773dbbe04101a9df77c29961909</sys_ui_section><sys_updated_by>MANUJAG</sys_updated_by><sys_updated_on>2020-02-13 13:24:06</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>state</element><position>10</position><sys_created_by>MANUJAG</sys_created_by><sys_created_on>2020-02-13 13:24:06</sys_created_on><sys_id>0e36b773dbbe04101a9df77c29961916</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_nyk_nbse_time_ca_nbse_timesheet" sys_domain="573bb46b136e22007864bb722244b0dd" view="Default view">8e36b773dbbe04101a9df77c29961909</sys_ui_section><sys_updated_by>MANUJAG</sys_updated_by><sys_updated_on>2020-02-13 13:24:06</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>total_hrs</element><position>11</position><sys_created_by>MANUJAG</sys_created_by><sys_created_on>2020-02-13 13:24:06</sys_created_on><sys_id>8e36b773dbbe04101a9df77c29961916</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_nyk_nbse_time_ca_nbse_timesheet" sys_domain="573bb46b136e22007864bb722244b0dd" view="Default view">8e36b773dbbe04101a9df77c29961909</sys_ui_section><sys_updated_by>MANUJAG</sys_updated_by><sys_updated_on>2020-02-13 13:24:06</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>working_days_for_pte</element><position>12</position><sys_created_by>MANUJAG</sys_created_by><sys_created_on>2020-02-13 13:24:06</sys_created_on><sys_id>0236b773dbbe04101a9df77c29961917</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_nyk_nbse_time_ca_nbse_timesheet" sys_domain="573bb46b136e22007864bb722244b0dd" view="Default view">8e36b773dbbe04101a9df77c29961909</sys_ui_section><sys_updated_by>MANUJAG</sys_updated_by><sys_updated_on>2020-02-13 13:24:06</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>x_nyk_nbse_time_ca_nbse_timesheet</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>MANUJAG</sys_created_by><sys_created_on>2020-02-13 13:24:06</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>573bb46b136e22007864bb722244b0dd</sys_domain><sys_domain_path>!!$/</sys_domain_path><sys_id>8e36b773dbbe04101a9df77c29961909</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_nyk_nbse_time_ca_nbse_timesheet</sys_name><sys_overrides caption="NULL" display_value="" name="x_nyk_nbse_time_ca_nbse_timesheet" sys_domain="global" view="Default view">ab63b949db3a04901a9df77c29961940</sys_overrides><sys_package display_value="NBSE Time Card" source="x_nyk_nbse_time_ca">00e16545dbf604901a9df77c2996198a</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="NBSE Time Card">00e16545dbf604901a9df77c2996198a</sys_scope><sys_update_name>sys_ui_section_8e36b773dbbe04101a9df77c29961909</sys_update_name><sys_updated_by>MANUJAG</sys_updated_by><sys_updated_on>2020-02-13 13:24:06</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-2137163634</payload_hash>
+        <record_name>NBSE Timesheet</record_name>
+        <reverted_from/>
+        <source>f24e07321b001010f59b8734ec4bcb59</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2020-04-12 11:14:12</sys_created_on>
+        <sys_id>152bb57a1bdc9050f59b8734ec4bcb01</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>1716e18cfa00000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Form Layout</type>
+        <update_guid>d12bb57a58dc90501430c16834173e01</update_guid>
+        <update_guid_history>d12bb57a58dc90501430c16834173e01:-2137163634</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>MANUJAG</sys_created_by>
+        <sys_created_on>2020-04-24 15:26:38</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>5aba943bb9ec4aab808bb4fa41674ee1</sys_id>
+        <sys_metadata>8e36b773dbbe04101a9df77c29961909</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_nyk_nbse_time_ca_nbse_timesheet</sys_name>
+        <sys_package display_value="NBSE Time Card" source="x_nyk_nbse_time_ca">00e16545dbf604901a9df77c2996198a</sys_package>
+        <sys_parent display_value="NBSE Timesheet">7fe0a0fedb3f4c10be65fba9bf9619fe</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NBSE Time Card">00e16545dbf604901a9df77c2996198a</sys_scope>
+        <sys_scope_delete display_value="">794c9e7989a8442480c4438e5a152c49</sys_scope_delete>
+        <sys_update_name>sys_ui_section_8e36b773dbbe04101a9df77c29961909</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_8e36b773dbbe04101a9df77c29961909">152bb57a1bdc9050f59b8734ec4bcb01</sys_update_version>
+        <sys_updated_by>MANUJAG</sys_updated_by>
+        <sys_updated_on>2020-04-24 15:26:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -72,7 +72,7 @@
         <update_guid_history>7e1eb76597fe8490eb5745432d05ead4:-1162087537</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Record deleted 02-24-2020 04:42:51">ec1de353db8780501a9df77c299619ce</sys_audit_delete>
+        <sys_audit_delete display_value="">ec1de353db8780501a9df77c299619ce</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>GARGL</sys_created_by>
         <sys_created_on>2020-02-24 09:42:51</sys_created_on>

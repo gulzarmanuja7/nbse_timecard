@@ -54,7 +54,7 @@
         <sys_created_by>GARGL</sys_created_by>
         <sys_created_on>2020-02-12 11:24:49</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>94315ae31bb2c010f59b8734ec4bcb12</sys_id>
+        <sys_id>5cf0e0fedb3f4c10be65fba9bf9619d4</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Working Days for PTE</sys_name>
         <sys_package display_value="NBSE Time Card" source="x_nyk_nbse_time_ca">00e16545dbf604901a9df77c2996198a</sys_package>
@@ -62,8 +62,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="NBSE Time Card">00e16545dbf604901a9df77c2996198a</sys_scope>
         <sys_update_name>sys_dictionary_x_nyk_nbse_time_ca_nbse_user_profile_working_days_for_pte</sys_update_name>
-        <sys_updated_by>GARGL</sys_updated_by>
-        <sys_updated_on>2020-02-12 11:24:49</sys_updated_on>
+        <sys_updated_by>MANUJAG</sys_updated_by>
+        <sys_updated_on>2020-04-01 15:34:59</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

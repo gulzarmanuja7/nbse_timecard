@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_use_override_address_" label="Use Override Address?" language="en" table="u_imp_tmpl_core_company">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_use_override_address_</element>
+            <help/>
+            <hint/>
+            <label>Use Override Address?</label>
+            <language>en</language>
+            <name>u_imp_tmpl_core_company</name>
+            <plural>Use Override Address?s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>MANUJAG</sys_created_by>
+            <sys_created_on>2020-03-31 15:40:47</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>fa385a0bdbb30050be65fba9bf96197c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Use Override Address?</sys_name>
+            <sys_package display_value="NBSE Time Card" source="x_nyk_nbse_time_ca">00e16545dbf604901a9df77c2996198a</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="NBSE Time Card">00e16545dbf604901a9df77c2996198a</sys_scope>
+            <sys_update_name>sys_documentation_u_imp_tmpl_core_company_u_use_override_address__en</sys_update_name>
+            <sys_updated_by>MANUJAG</sys_updated_by>
+            <sys_updated_on>2020-03-31 15:40:47</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

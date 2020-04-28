@@ -3,92 +3,92 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>sys_import_row</element>
-            <list_id display_value="u_imp_tmpl_x_nyk_nbse_time_ca_nbse_project_work_type" element="NULL" name="u_imp_tmpl_x_nyk_nbse_time_ca_nbse_project_work_type" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">6baa59cc1be74010f59b8734ec4bcb10</list_id>
+            <list_id display_value="u_imp_tmpl_x_nyk_nbse_time_ca_nbse_project_work_type" element="NULL" name="u_imp_tmpl_x_nyk_nbse_time_ca_nbse_project_work_type" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bc8fae47db370050be65fba9bf9619b5</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>MANUJAG</sys_created_by>
-            <sys_created_on>2020-03-09 17:14:24</sys_created_on>
-            <sys_id>efaa59cc1be74010f59b8734ec4bcb10</sys_id>
+            <sys_created_on>2020-03-31 17:22:30</sys_created_on>
+            <sys_id>3c8fae47db370050be65fba9bf9619b6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>MANUJAG</sys_updated_by>
-            <sys_updated_on>2020-03-09 17:14:24</sys_updated_on>
+            <sys_updated_on>2020-03-31 17:22:30</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>sys_import_set</element>
-            <list_id display_value="u_imp_tmpl_x_nyk_nbse_time_ca_nbse_project_work_type" element="NULL" name="u_imp_tmpl_x_nyk_nbse_time_ca_nbse_project_work_type" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">6baa59cc1be74010f59b8734ec4bcb10</list_id>
+            <list_id display_value="u_imp_tmpl_x_nyk_nbse_time_ca_nbse_project_work_type" element="NULL" name="u_imp_tmpl_x_nyk_nbse_time_ca_nbse_project_work_type" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bc8fae47db370050be65fba9bf9619b5</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>MANUJAG</sys_created_by>
-            <sys_created_on>2020-03-09 17:14:24</sys_created_on>
-            <sys_id>63aa59cc1be74010f59b8734ec4bcb11</sys_id>
+            <sys_created_on>2020-03-31 17:22:30</sys_created_on>
+            <sys_id>bc8fae47db370050be65fba9bf9619b6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>MANUJAG</sys_updated_by>
-            <sys_updated_on>2020-03-09 17:14:24</sys_updated_on>
+            <sys_updated_on>2020-03-31 17:22:30</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>sys_import_state</element>
-            <list_id display_value="u_imp_tmpl_x_nyk_nbse_time_ca_nbse_project_work_type" element="NULL" name="u_imp_tmpl_x_nyk_nbse_time_ca_nbse_project_work_type" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">6baa59cc1be74010f59b8734ec4bcb10</list_id>
+            <list_id display_value="u_imp_tmpl_x_nyk_nbse_time_ca_nbse_project_work_type" element="NULL" name="u_imp_tmpl_x_nyk_nbse_time_ca_nbse_project_work_type" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bc8fae47db370050be65fba9bf9619b5</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
             <sys_created_by>MANUJAG</sys_created_by>
-            <sys_created_on>2020-03-09 17:14:24</sys_created_on>
-            <sys_id>e3aa59cc1be74010f59b8734ec4bcb11</sys_id>
+            <sys_created_on>2020-03-31 17:22:30</sys_created_on>
+            <sys_id>308fae47db370050be65fba9bf9619b7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>MANUJAG</sys_updated_by>
-            <sys_updated_on>2020-03-09 17:14:24</sys_updated_on>
+            <sys_updated_on>2020-03-31 17:22:30</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>sys_target_table</element>
-            <list_id display_value="u_imp_tmpl_x_nyk_nbse_time_ca_nbse_project_work_type" element="NULL" name="u_imp_tmpl_x_nyk_nbse_time_ca_nbse_project_work_type" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">6baa59cc1be74010f59b8734ec4bcb10</list_id>
+            <list_id display_value="u_imp_tmpl_x_nyk_nbse_time_ca_nbse_project_work_type" element="NULL" name="u_imp_tmpl_x_nyk_nbse_time_ca_nbse_project_work_type" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bc8fae47db370050be65fba9bf9619b5</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
             <sys_created_by>MANUJAG</sys_created_by>
-            <sys_created_on>2020-03-09 17:14:24</sys_created_on>
-            <sys_id>67aa59cc1be74010f59b8734ec4bcb11</sys_id>
+            <sys_created_on>2020-03-31 17:22:30</sys_created_on>
+            <sys_id>b08fae47db370050be65fba9bf9619b7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>MANUJAG</sys_updated_by>
-            <sys_updated_on>2020-03-09 17:14:24</sys_updated_on>
+            <sys_updated_on>2020-03-31 17:22:30</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>sys_target_sys_id</element>
-            <list_id display_value="u_imp_tmpl_x_nyk_nbse_time_ca_nbse_project_work_type" element="NULL" name="u_imp_tmpl_x_nyk_nbse_time_ca_nbse_project_work_type" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">6baa59cc1be74010f59b8734ec4bcb10</list_id>
+            <list_id display_value="u_imp_tmpl_x_nyk_nbse_time_ca_nbse_project_work_type" element="NULL" name="u_imp_tmpl_x_nyk_nbse_time_ca_nbse_project_work_type" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bc8fae47db370050be65fba9bf9619b5</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
             <sum>false</sum>
             <sys_created_by>MANUJAG</sys_created_by>
-            <sys_created_on>2020-03-09 17:14:24</sys_created_on>
-            <sys_id>e7aa59cc1be74010f59b8734ec4bcb11</sys_id>
+            <sys_created_on>2020-03-31 17:22:30</sys_created_on>
+            <sys_id>348fae47db370050be65fba9bf9619b7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>MANUJAG</sys_updated_by>
-            <sys_updated_on>2020-03-09 17:14:24</sys_updated_on>
+            <sys_updated_on>2020-03-31 17:22:30</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>sys_row_error</element>
-            <list_id display_value="u_imp_tmpl_x_nyk_nbse_time_ca_nbse_project_work_type" element="NULL" name="u_imp_tmpl_x_nyk_nbse_time_ca_nbse_project_work_type" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">6baa59cc1be74010f59b8734ec4bcb10</list_id>
+            <list_id display_value="u_imp_tmpl_x_nyk_nbse_time_ca_nbse_project_work_type" element="NULL" name="u_imp_tmpl_x_nyk_nbse_time_ca_nbse_project_work_type" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bc8fae47db370050be65fba9bf9619b5</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
             <sum>false</sum>
             <sys_created_by>MANUJAG</sys_created_by>
-            <sys_created_on>2020-03-09 17:14:24</sys_created_on>
-            <sys_id>6baa59cc1be74010f59b8734ec4bcb11</sys_id>
+            <sys_created_on>2020-03-31 17:22:30</sys_created_on>
+            <sys_id>b48fae47db370050be65fba9bf9619b7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>MANUJAG</sys_updated_by>
-            <sys_updated_on>2020-03-09 17:14:24</sys_updated_on>
+            <sys_updated_on>2020-03-31 17:22:30</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -102,11 +102,11 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>MANUJAG</sys_created_by>
-            <sys_created_on>2020-03-09 17:14:24</sys_created_on>
+            <sys_created_on>2020-03-31 17:22:30</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>6baa59cc1be74010f59b8734ec4bcb10</sys_id>
+            <sys_id>bc8fae47db370050be65fba9bf9619b5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>u_imp_tmpl_x_nyk_nbse_time_ca_nbse_project_work_type</sys_name>
             <sys_package display_value="NBSE Time Card" source="x_nyk_nbse_time_ca">00e16545dbf604901a9df77c2996198a</sys_package>
@@ -115,7 +115,7 @@
             <sys_scope display_value="NBSE Time Card">00e16545dbf604901a9df77c2996198a</sys_scope>
             <sys_update_name>sys_ui_list_u_imp_tmpl_x_nyk_nbse_time_ca_nbse_project_work_type_null</sys_update_name>
             <sys_updated_by>MANUJAG</sys_updated_by>
-            <sys_updated_on>2020-03-09 17:14:24</sys_updated_on>
+            <sys_updated_on>2020-03-31 17:22:30</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

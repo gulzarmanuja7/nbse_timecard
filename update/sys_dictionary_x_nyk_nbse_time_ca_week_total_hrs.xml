@@ -54,7 +54,7 @@ return current.mon+current.tue+current.wed+current.thu+current.fri+current.sat+c
         <sys_created_by>MANUJAG</sys_created_by>
         <sys_created_on>2020-02-04 14:26:03</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>caede9c1db3a04901a9df77c299619a5</sys_id>
+        <sys_id>6fe0a0fedb3f4c10be65fba9bf96194b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Total (Hrs)</sys_name>
         <sys_package display_value="NBSE Time Card" source="x_nyk_nbse_time_ca">00e16545dbf604901a9df77c2996198a</sys_package>
@@ -63,7 +63,7 @@ return current.mon+current.tue+current.wed+current.thu+current.fri+current.sat+c
         <sys_scope display_value="NBSE Time Card">00e16545dbf604901a9df77c2996198a</sys_scope>
         <sys_update_name>sys_dictionary_x_nyk_nbse_time_ca_week_total_hrs</sys_update_name>
         <sys_updated_by>MANUJAG</sys_updated_by>
-        <sys_updated_on>2020-02-04 14:26:03</sys_updated_on>
+        <sys_updated_on>2020-04-01 15:35:01</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

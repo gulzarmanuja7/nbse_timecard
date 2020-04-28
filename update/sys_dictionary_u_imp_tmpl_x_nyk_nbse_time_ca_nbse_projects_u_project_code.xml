@@ -49,7 +49,7 @@
         <sys_created_by>MANUJAG</sys_created_by>
         <sys_created_on>2020-03-09 15:53:19</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>7f1809881ba74010f59b8734ec4bcbd2</sys_id>
+        <sys_id>fbe0a0fedb3f4c10be65fba9bf9619ed</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Project Code</sys_name>
         <sys_package display_value="NBSE Time Card" source="x_nyk_nbse_time_ca">00e16545dbf604901a9df77c2996198a</sys_package>
@@ -58,7 +58,7 @@
         <sys_scope display_value="NBSE Time Card">00e16545dbf604901a9df77c2996198a</sys_scope>
         <sys_update_name>sys_dictionary_u_imp_tmpl_x_nyk_nbse_time_ca_nbse_projects_u_project_code</sys_update_name>
         <sys_updated_by>MANUJAG</sys_updated_by>
-        <sys_updated_on>2020-03-09 15:53:19</sys_updated_on>
+        <sys_updated_on>2020-04-01 15:34:34</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

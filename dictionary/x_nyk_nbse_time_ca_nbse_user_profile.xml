@@ -25,7 +25,7 @@
         <element attributes="edge_encryption_enabled=true" label="Start Date" max_length="40" name="start_date" type="glide_date"/>
         <element attributes="encode_utf8=false" label="Timesheet Approver" max_length="32" name="timesheet_approver" reference="sys_user" reference_qual="sys_domain!=e75b346b136e22007864bb722244b04c^sys_domain!=87c9441b13f7f6407864bb722244b027^EQ" reference_qual_condition="sys_domain!=e75b346b136e22007864bb722244b04c^sys_domain!=87c9441b13f7f6407864bb722244b027^EQ" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Title" max_length="40" name="title" read_only="true" type="string"/>
-        <element attributes="encode_utf8=false" display="true" label="User" mandatory="true" max_length="32" name="user" reference="sys_user" reference_qual="sys_domain!=e75b346b136e22007864bb722244b04c^sys_domain!=573bb46b136e22007864bb722244b0dd^sys_domain!=87c9441b13f7f6407864bb722244b027^EQ" reference_qual_condition="sys_domain!=e75b346b136e22007864bb722244b04c^sys_domain!=573bb46b136e22007864bb722244b0dd^sys_domain!=87c9441b13f7f6407864bb722244b027^EQ" type="reference"/>
+        <element attributes="encode_utf8=false" display="true" label="User" mandatory="true" max_length="32" name="user" reference="sys_user" reference_qual="sys_domain!=e75b346b136e22007864bb722244b04c^sys_domain!=87c9441b13f7f6407864bb722244b027^EQ" reference_qual_condition="sys_domain!=e75b346b136e22007864bb722244b04c^sys_domain!=87c9441b13f7f6407864bb722244b027^EQ" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="User Type" max_length="40" name="user_type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="FTE" sequence="0" value="FTE"/>
